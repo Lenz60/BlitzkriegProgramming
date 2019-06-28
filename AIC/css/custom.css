@@ -76,7 +76,8 @@
 }
 .dropdown-selected{
   background-color: #70e2ff;
-  cursor: pointer; 
+  cursor: default; 
+  color: #FFF;
 }
 .btn-danger {
     width: 55%;
@@ -84,7 +85,6 @@
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
-
 
 
 .background {
