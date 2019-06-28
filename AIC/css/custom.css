@@ -67,11 +67,16 @@
 }
 
 .dropdown:hover{
-  background-color: #42b500;
+  background-color: #FFF;
+  cursor: pointer;
 }
 .dropdown-item:hover {
     color: white;
     background-color: #70e2ff;
+}
+.dropdown-selected{
+  background-color: #70e2ff;
+  cursor: pointer; 
 }
 .btn-danger {
     width: 55%;
@@ -112,6 +117,7 @@
   width: 440px;
   caret-color:red;
   transition: width 0.4s linear;
+  cursor: crosshair;
   }
 
 .searchbar:hover > .search_icon{
@@ -128,4 +134,5 @@
   align-items: center;
   border-radius: 50%;
   color:white;
+  cursor: crosshair;
   }
