@@ -58,12 +58,16 @@
   text-decoration: underline;
 }
 
-.logopos {
+.logoposleft {
   margin-left: 100px;
 }
 
+.logoposright {
+  margin-right: 100px;
+}
+
 .dropdown:hover{
-  background-color: #46e894;
+  background-color: #42b500;
 }
 .dropdown-item:hover {
     color: white;
