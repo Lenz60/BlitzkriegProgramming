@@ -11,18 +11,55 @@
 .container-article-home {
   background-color: #ebfcff;
   padding: 5px 25px 70% 25px;
-  margin: 50px 50px 80px 50px;
+  /*margin: 50px 50px 80px 50px;*/
   border-radius: 30px;
 }
 
 .container-article-page{
   background-color: #d0d2d9;
   padding: 5px 25px 70% 25px;
-  margin: 5px 300px 80px 300px;
+  /*margin: 5px 300px 80px 300px;*/
   border-radius: 30px;
 }
 
+.containersticky {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	padding: 0px 5px;
+	margin: 0% 0% 0% 0%;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  display: block !important;
+}
+
+#colorsticky{
+	background-color: rgb(248, 247, 247);
+	z-index: 1	
+}
+
+.logostick {
+	position: fixed;
+	left: 0%;
+	top: 0;
+	z-index: 2;
+	text-align: left;
+}
+
+.containersb {
+	position: fixed;
+	left: 35%;
+	top: 0;
+}
+
 .containernav {
+	position: fixed;
+	left: 65%;
+	top: 0;
+	z-index: 100;
+	margin-top: 20px;
   padding: 0px 5px;
   list-style: none;
   background-color: #FFF;
@@ -42,11 +79,19 @@
 
 .sidebar{
   background-color: #d0d2d9;
-  padding: 5px 25px 0% 25px;
+  border-radius: 10px;
+  margin-right: 0px;
+  /*padding: 5px 25px 0% 25px;
   margin: 5px 0px 80px 0px;
   border-radius: 30px;
   text-align: right;
-  align-content: right;
+  align-content: right;*/
+}
+
+.main {
+	background-color: #6682e7;
+	border-radius: 10px;
+	margin-right: 10px;
 }
 
 .breadcrumbex {
@@ -125,13 +170,15 @@
   margin-bottom: 0px;
   margin-top: 10px;
   height: 50px;
-  background-color: #353b48;
+  background-color: #ffffff;
   border-radius: 30px;
   padding: 10px;
   }
 
+
+
 .search_input{
-  color: white;
+  color: rgb(24, 23, 23);
   border: 0;
   outline: 0;
   background: none;
@@ -143,7 +190,7 @@
 
 .searchbar:hover > .search_input{
   padding: 0 10px;
-  width: 440px;
+  width: 300px;
   caret-color:red;
   transition: width 0.4s linear;
   cursor: default;
@@ -162,6 +209,47 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  color:white;
+  color:rgb(14, 14, 14);
   cursor: crosshair;
+  }
+
+  /*#######################################*/
+
+  #navbar {
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  #navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  #navbar a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  #navbar a.active {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  .content {
+	padding: 16px;
+  }
+  
+  .sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  .sticky + .content {
+	padding-top: 60px;
   }
