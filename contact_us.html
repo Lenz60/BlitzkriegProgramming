@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Us</title>
-    <link href="https://github.com/Lenz60/BlitzkriegProgramming/blob/master/AIC/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="https://github.com/Lenz60/BlitzkriegProgramming/blob/master/AIC/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <style type="text/css">
     @import url("https://fonts.googleapis.com/css?family=Rubik:500,700|Roboto:400,600");
@@ -582,10 +583,10 @@ select.form-control[multiple] {
               <div class="container">
                   <div class="row">
                       <!-- Section Titile -->
+                      <div class="jumbotron">
                       <div class="col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
                           <h1 class="section-title">Love to Hear From You</h1>
                       </div>
-                  </div>
                   <div class="row">
                       <!-- Section Titile -->
                       <div class="col-md-6 mt-3 contact-widget-section2 wow animated fadeInLeft" data-wow-delay=".2s">
@@ -637,12 +638,13 @@ select.form-control[multiple] {
                               </div>
                               <!-- Form Submit -->
                               <div class="form-submit mt-5">
-                                  <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
+                                  <button class="btn btn-primary btn-lg" type="submit" id="form-submit"><i class="material-icons mdi mdi-message-outline"></i> Send Message</button>
                                   <div id="msgSubmit" class="h3 text-center hidden"></div>
                                   <div class="clearfix"></div>
                               </div>
                           </form>
                       </div>
+                  </div>
                   </div>
               </div>
             </section>
