@@ -169,16 +169,16 @@
 .searchbar{
   margin-bottom: 0px;
   margin-top: 10px;
-  height: 50px;
-  background-color: #ffffff;
-  border-radius: 30px;
-  padding: 10px;
+  height: 40px;
+  background-color: #bebebe;
+  border-radius: 25px;
+  padding: 5px;
   }
 
 
 
 .search_input{
-  color: rgb(24, 23, 23);
+  color: rgb(0, 0, 0);
   border: 0;
   outline: 0;
   background: none;
@@ -197,7 +197,7 @@
   }
 
 .searchbar:hover > .search_icon{
-  background: white;
+  background: rgb(255, 255, 255);
   color: #e74c3c;
   }
 

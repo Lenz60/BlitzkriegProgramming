@@ -7,43 +7,44 @@
 
 </head>
 <body>
-	<div class="logobar">
-		<img class="logoposleft" src="images/logom4.png" align="left" width="15%" height="15%" />
-		<div class="container h-100">
-	    	<div class="d-flex justify-content-center h-100">
-		        <div class="searchbar">
-		          <input class="search_input" type="text" name="" placeholder="Search...">
-		          <a href="#" class="search_icon"><i class="fas fa-search"><img src="images/searchlogo2.png" width="30px" height="30px"></i></a>
-		       </div>
-      		</div>
-    	</div>
-
+<!-- Header -->
+<div class="navbar containersticky"> 
+	<img class="logoposleft" src="images/logom4.png" align="left" width="15%" height="15%" />
+	<div class="container containersb">
+		<div class="d-flex h-100">
+			<div class="searchbar">
+			  <input class="search_input" type="text" name="" placeholder="Search...">
+			  <a href="#" class="search_icon"><i class="fas fa-search"><img src="images/searchlogo2.png" width="30px" height="30px"></i></a>
+		   </div>
+		  </div>
 	</div>
+	<!-- Navigation Bar -->
 	<div class="containernav">
-		<div class="containernav">
-		<ul class="nav justify-content-center">
-		  <li class="nav-item">
-		    <a class="nav-link" href="main.html" aria-disabled="true">Home</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="type.html">Type of Guns</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" href="rofrog.html">ROF&ROG</a>
-		  </li>
-		  <li class="nav-item dropdown ">
-		    <a class="nav-link dropdown-selected" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="#FFF">Gear</font></a>
-			    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-		                <a class="dropdown-item nav-link" href="russiaimpression.html">Russia Impression</a>
-		                <a class="dropdown-item nav-link dropdown-selected" href="usaimpression.html">USA Impression</a>
-		                <a class="dropdown-item nav-link" href="#">Poland Impression</a>
-		                <a class="dropdown-item nav-link" href="#">Japanese Impression</a>
-		        </div>
-
-		  </li>
+		<ul class="nav justify-content-center ">
+			  <li class="nav-item">
+				<a class="nav-link disabled" href="main.html" aria-disabled="true">Home</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="type.html">Type of Guns</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="rofrog.html">ROF&ROG</a>
+			  </li>
+			  <li class="nav-item dropdown dropdown-selected ">
+				<p class="nav-link dropdown-toogle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<font color="#007bff">Gear</font>
+				</p>
+				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<a class="dropdown-item nav-link" href="russiaimpression.html">Russia Impression</a>
+					<a class="dropdown-item nav-link dropdown-selected" href="usaimpression.html">USA Impression</a>
+					<a class="dropdown-item nav-link" href="polandimpression.html">Poland Impression</a>
+					<a class="dropdown-item nav-link" href="japaneseimpression.html">Japanese Impression</a>
+				</div>
+			  </li>
 		</ul>
 	</div>
-	</div>
+</div>
+<!-- END -->
 	
 	
 <!--
@@ -59,40 +60,109 @@
 	</div>
 -->
 
+<!-- Slider -->
+<br><br><br>
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/bbedit.jpg" height="460" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/mgedit.png" height="460" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/otedit.jpg" height="460" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+	<ol class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	</ol>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="images/bbedit.jpg" height="460" class="d-block w-100" alt="...">
+		</div>
+		<div class="carousel-item">
+			<img src="images/mgedit.png" height="460" class="d-block w-100" alt="...">
+		</div>
+		<div class="carousel-item">
+			<img src="images/otedit.jpg" height="460" class="d-block w-100" alt="...">
+		</div>
+	</div>
 </div>
 	
-		<div class="media container-article-page">
-		  <div class="media-body">
-		    <h5 class="mt-0" align="center">USA Army Impression</h5>
-		    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-		  </div>
-		</div>
+			<!--Doni Content-->
+	<div class="container">
+		<div class="row">
+            <div class="col-sm-8 ros rip" style="padding: 10px;">
+                <h1>Poland Impression</h1>
+                    The Land Forces (Wojska Lądowe) are a military branch of the Armed Forces of the Republic of Poland. They currently contain some 77,000[1] active personnel and form many components of the European Union and NATO deployments around the world. Poland's recorded military history stretches back a millennium – since the 10th century (see List of Polish wars and History of the Polish Army), but Poland's modern army was formed after the country regained independence following World War I in 1918.
+            <br><br>
+            <h1>1918–1938</h1>
+            <p>When Poland regained independence in 1918, it recreated its military which participated in the Polish–Soviet War of 1919–1921, and in the two smaller conflicts ( Polish–Ukrainian War (1918–1919) and the Polish–Lithuanian War (1920)).
 
+                    Initially, right after the First World War, Poland had five military districts (1918–1921):</p>
+            <ul>
+                   <li> Poznań Military District (Poznański Okręg Wojskowy), HQ in Poznań</li>
+                   <li> Kraków Military District (Krakowski Okręg Wojskowy), HQ in Kraków</li>
+                   <li> Łódź Military District (Łódzki Okręg Wojskowy), HQ in Łódź</li>
+                    <li>Warsaw Military District (Warszawski Okręg Wojskowy), HQ in Warsaw</li>
+                    <li>Lublin Military District (Lubelski Okręg Wojskowy), HQ in Lublin.</li>
+            </ul>
+            <p>The Polish land forces as readied for the Polish–Soviet War was made up of soldiers who had formerly served in the various partitioning empires, supported by some international volunteers.[3] There appear to have been a total of around 30 Polish divisions involved. Boris Savinkov was at the head of an army of 20,000 to 30,000 largely Russian POWs, and was accompanied by Dmitry Merezhkovsky and Zinaida Gippius. The Polish forces grew from approximately 100,000 in 1918 to over 500,000 in early 1920.[4] In August 1920, the Polish army had reached a total strength of 737,767 people; half of that was on the frontline. Given Soviet losses, there was rough numerical parity between the two armies; and by the time of the Battle of Warsaw Poles might have even had a slight advantage in numbers and logistics.[5]</p>
+               <br>
+               <h1>1939–1945</h1>
+               <p>The German invasion of Poland began on 1 September 1939, and the Wehrmacht seized half the country quickly despite heavy Polish resistance. Among the erroneous myths generated by this campaign were accounts of Polish cavalry charging German tanks, which did not, in fact, take place. In the east, the Red Army took the other half of the country in accordance with the Nazi-Soviet Pact. Following the country's fall, Polish soldiers began regrouping in what was to become the Polish Army in France. Both the Polish Armed Forces in the West and the Polish Armed Forces in the East, as well as interior (partisan) forces, primarily represented by the Home Army (AK) had land forces during the Second World War. While the forces fighting under the Allied banner were supported by the Polish Air Force and Navy, the partisan forces were an exclusive land formation.</p>
+                <p>However the army operational today has its roots in the surrogate force formed in support of Soviet interests during the establishment of the People's Republic of Poland after the Second World War. Two Polish armies, the First Army (Poland) and the Second Army fought with the Red Army on the Eastern Front, supported by some Polish Air Force elements. The formation of a Third Army was begun but not completed.</p>
+            </div>
+			<div class="col-sm sidebar rip" style="padding: 10px;">
+                    <td width="30%">
+							<h2 align="left"> <font color="black" face="Tahoma, Geneva, sans-serif"><b>Hot News</b>								
+							</font></h2>
+							<table width="100%" border="0" >
+								<tbody>
+                                <tr class="pad" style="margin: 40px;">
+									<td width="30%"><a href="#"><img src="images/Polish_Army_Poland3.jpg" width="100%" border="0"></a>									
+									</td>
+									<td width="70%">
+										<p class="rstline" align="justify"><font color="#666666" face="Tahoma, Geneva, sans-serif" size="-2">
+											<a href="#">Poland Military Uniform 2020</a><br> The Polish military released new armor for their military, which would later ... 
+										</font></p>
+									</td>
+								</tr>
+								<tr class="pad">
+									<td width="30%"><a href="#"><img src="images/Polish_Army_Poland2.jpg" width="100%" border="0"></a>									
+									</td>
+									<td width="70%">
+										<p class="rstline" align="justify"><font color="#666666" face="Tahoma, Geneva, sans-serif" size="-2">
+											<a href="#">Poland Military Uniform 2018</a><br> The Polish military released new armor for their military, which would later ...
+										</font></p>
+									</td>
+                                </tr>
+                                <tr class="pad">
+                                        <td width="30%"><a href="#"><img src="images/Polish_Army_Poland.jpg" width="100%" border="0"></a>									
+                                        </td>
+                                        <td width="70%">
+                                            <p class="rstline" align="justify"><font color="#666666" face="Tahoma, Geneva, sans-serif" size="-2">
+                                                <a href="#">Poland Military Uniform 2017</a><br> The Polish military released new armor for their military, which would later ...
+                                            </font></p>
+                                        </td>
+                                </tr>
+                                <tr class="pad">
+                                            <td width="30%"><a href="#"><img src="images/Polish_Army_Poland3.jpg" width="100%" border="0"></a>									
+                                            </td>
+                                            <td width="70%">
+                                                <p class="rstline" align="justify"><font color="#666666" face="Tahoma, Geneva, sans-serif" size="-2">
+                                                    <a href="#">Poland Military Uniform 2015</a><br> The Polish military released new armor for their military, which would later ... 
+                                                </font></p>
+                                            </td>
+                                </tr>
+                                <tr class="pad">
+                                                <td width="30%"><a href="#"><img src="images/Polish_Army_Poland2.jpg" width="100%" border="0"></a>									
+                                                </td>
+                                                <td width="70%">
+                                                    <p class="rstline" align="justify"><font color="#666666" face="Tahoma, Geneva, sans-serif" size="-2">
+                                                        <a href="#">Poland Military Uniform 2012</a><br> The Polish military released new armor for their military, which would later ... 
+                                                    </font></p>
+                                                </td>
+                                </tr>
+                            </tbody>
+                        </table> <!--end News-->
+					</td>
+				</div>
+		</div>
+	</div>
+	
 </body>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
