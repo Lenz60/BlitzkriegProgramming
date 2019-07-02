@@ -22,12 +22,20 @@
   border-radius: 30px;
 }
 
+.containerslide{
+  width: 100%;
+}
+
+.containertop{
+  margin-top: 490px;
+}
+
 .containersticky {
 	position: fixed;
 	top: 0;
 	z-index: 1;
 	width: 100%;
-	padding: 0px 5px;
+	padding: 5px 5px;
 	margin: 0% 0% 0% 0%;
   list-style: none;
   background-color: rgb(255, 255, 255);
@@ -157,7 +165,7 @@
 }
 
 .jumbomargin {
-  margin-top: 20px;
+
   margin-bottom: 10px;
 }
 
@@ -193,7 +201,7 @@
   width: 300px;
   caret-color:red;
   transition: width 0.4s linear;
-  cursor: default;
+  cursor: text;
   }
 
 .searchbar:hover > .search_icon{
@@ -212,6 +220,56 @@
   color:rgb(14, 14, 14);
   cursor: crosshair;
   }
+/* ============================= */
+.carousel-innerex {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+}
+
+.carousel-control-prevex,
+.carousel-control-nextex {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.carousel-control-prevex {
+  left: 0;
+}
+
+.carousel-control-nextex {
+  right: 0;
+}
+
+.carousel-control-prev-iconex,
+.carousel-control-next-iconex {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+.carousel-control-prev-iconex {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-iconex {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+}
+/* ============================= */
 
   /*#######################################*/
 
@@ -253,3 +311,22 @@
   .sticky + .content {
 	padding-top: 60px;
   }
+
+
+    .rip{
+        margin: 10px;
+    }
+    .rstline{
+        line-height: 1;
+    }
+    .main {
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 10px;
+    }
+    .pad{
+        padding-bottom: 5px;
+    }
+    .sidebar{
+        max-height: 410px;
+    }
