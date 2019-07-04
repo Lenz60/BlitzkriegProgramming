@@ -32,9 +32,20 @@
 
 .containersticky {
 	position: fixed;
-	top: 0;
+  top: 0;
+  width: 100%;
 	z-index: 1;
-	width: 100%;
+	padding: 5px 5px;
+	margin: 0% 0% 0% 0%;
+  list-style: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  display: block !important;
+}
+.containerstickynav {
+	position: fixed;
+	top: 0;
+	z-index: 2;
 	padding: 5px 5px;
 	margin: 0% 0% 0% 0%;
   list-style: none;
@@ -58,13 +69,13 @@
 
 .containersb {
 	position: fixed;
-	left: 35%;
+	left: 34%;
 	top: 0;
 }
 
 .containernav {
 	position: fixed;
-	left: 65%;
+	left: 60%;
 	top: 0;
 	z-index: 100;
 	margin-top: 20px;
@@ -137,7 +148,7 @@
 }
 
 .logoposleft {
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .logoposright {
@@ -169,21 +180,24 @@
   margin-bottom: 10px;
 }
 
+/*
 .background {
   background-color: ;
 }
-
+*/
 
 .searchbar{
   margin-bottom: 0px;
-  margin-top: 10px;
+  margin-top: 20px;
   height: 40px;
   background-color: #bebebe;
   border-radius: 25px;
   padding: 5px;
   }
 
-
+.justify-contentex{
+  justify-content: center;
+}
 
 .search_input{
   color: rgb(0, 0, 0);
@@ -298,35 +312,3 @@
 	color: white;
   }
   
-  .content {
-	padding: 16px;
-  }
-  
-  .sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-  }
-  
-  .sticky + .content {
-	padding-top: 60px;
-  }
-
-
-    .rip{
-        margin: 10px;
-    }
-    .rstline{
-        line-height: 1;
-    }
-    .main {
-    background-color: white;
-    border-radius: 10px;
-    margin-right: 10px;
-    }
-    .pad{
-        padding-bottom: 5px;
-    }
-    .sidebar{
-        max-height: 410px;
-    }
