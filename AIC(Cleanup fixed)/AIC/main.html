@@ -15,24 +15,98 @@
 	<!-- Header -->
 	<header>
 		<!-- Logo -->
-		<img src="images/logom4.png" alt="Logo">
+		<img src="images/logom4white.png" alt="Logo">
 
 		<!-- Navigation Bar -->
-		<nav class="nav justify-content-center">
-			<div class="nav-item"><a class="nav-link" href="#">Home</a></div>
-			<div class="nav-item"><a class="nav-link" href="#">Type of Guns</a></div>
-			<div class="nav-item"><a class="nav-link" href="#">ROF&ROG</a></div>
-			<div class="nav-item dropdown">
-				<a class="nav-link dropdown-toogle" id="dropdownMenuButton" href="#"
-				   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				   Gear
-				</a>
-				<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-					<a class="dropdown-item nav-link" href="#">Russia Impression</a>
-					<a class="dropdown-item nav-link" href="#">USA Impression</a>
-					<a class="dropdown-item nav-link" href="#">Poland Impression</a>
-					<a class="dropdown-item nav-link" href="#">Japanese Impression</a>
-				</div>
+		<nav class="navbar justify-content-center navbar-expand-md">
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link disabled" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Guns
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Handgun</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="#">Glock18</a></li>
+									<li><a class="dropdown-item" href="#">M1911</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Assault Rifles</a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">AK</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">AK47</a></li>
+											<li><a class="dropdown-item" href="#">AKS74</a></li>
+											<li><a class="dropdown-item" href="#">AK12</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">M4</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">M16</a></li>
+											<li><a class="dropdown-item" href="#">M4A1</a></li>
+											<li><a class="dropdown-item" href="#">M4 SOPMOD BLOCK II</a></li>
+											<li><a class="dropdown-item" href="#">HK416</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Bolt Action</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="#">M24</a></li>
+									<li><a class="dropdown-item" href="#">L96</a></li>
+								</ul>
+							</li>
+							<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">SMG</a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">MP5</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">MP5 SD</a></li>
+											<li><a class="dropdown-item" href="#">MP5</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">UMP</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="#">UMP 45</a></li>
+											<li><a class="dropdown-item" href="#">UMP 9</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Rule&Mechanism
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Rule</a>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="#">Rule Of Fire</a></li>
+										<li><a class="dropdown-item" href="#">Rule Of Game</a></li>
+									</ul>
+								</li>
+								<li><a class="dropdown-item" href="#">Mechanism</a></li>
+						</ul>
+					</li>
+
+					<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Gear
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">		
+									<li><a class="dropdown-item" href="#">USA</a></li>
+									<li><a class="dropdown-item" href="#">Japan</a></li>
+									<li><a class="dropdown-item" href="#">Russia</a></li>
+							</ul>
+						</li>
+					<li class="nav-item">
+								<a class="nav-link" href="#">Field</a>
+					</li>
+				</ul>
 			</div>
 		</nav>
 		
@@ -93,33 +167,6 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 		</div>
-
-		<!-- Sidebar -->
-		<div class="sidebar">
-			<div class="item">
-				<img src="images/Polish_Army_Poland.jpg">
-				<h3>AAA</h3>
-				<p>
-					Nesciunt reprehenderit sapiente nihil quia eveniet consectetur, assumenda ratione necessitatibus neque ipsum aspernatur at, quisquam expedita, hic eum! Beatae quia quae laudantium.
-				</p>
-			</div>
-			<hr>
-			<div class="item">
-				<img src="images/Polish_Army_Poland2.jpg">
-				<h3>AAA</h3>
-				<p>
-					Nesciunt reprehenderit sapiente nihil quia eveniet consectetur, assumenda ratione necessitatibus neque ipsum aspernatur at, quisquam expedita, hic eum! Beatae quia quae laudantium.
-				</p>
-			</div>
-			<hr>
-			<div class="item">
-				<img src="images/Polish_Army_Poland3.jpg">
-				<h3>AAA</h3>
-				<p>
-					Nesciunt reprehenderit sapiente nihil quia eveniet consectetur, assumenda ratione necessitatibus neque ipsum aspernatur at, quisquam expedita, hic eum! Beatae quia quae laudantium.
-				</p>
-			</div>
-		</div>
 	</main>
 	
 	<!-- Footer -->
@@ -141,8 +188,15 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
 			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
 			crossorigin="anonymous"></script>
+	
 
 	<!-- Our Java Script Down Here! -->
+   
+
+
+	<!-- Angularjs Dependencies -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>   
+	<script src="/js/custom.js"></script>
 	
 </body>
 </html>
