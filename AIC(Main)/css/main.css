@@ -1,0 +1,40 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*** Background ***/
+body {
+	background: url('../images/bg2.jpg');
+}
+
+/*** Slider ***/
+#carouselExampleControls {
+	padding-top: 50px;
+}
+
+/*** main ***/
+main > .intro {
+	margin-top: 5px;
+	padding: 10px 5%;
+	
+	background: rgb(226, 226, 226);
+}
+
+main > .content {
+	margin-top: 5px;
+	padding: 10px 5%;
+
+	width: 100%;
+	background: rgb(226, 226, 226);
+}
+
+/*** Footer ***/
+footer {
+	margin-top: 5px;
+	padding: 20px 5%;
+	background: rgba(40, 40, 40, 0.80);
+	text-align: center;
+	color: darkgray;
+}
