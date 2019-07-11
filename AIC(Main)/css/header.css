@@ -20,6 +20,7 @@ header {
 	background: rgba(40, 40, 40, 0.80);
 }
 
+
 /* Logo */
 header > img {
 	width: auto;
@@ -29,12 +30,24 @@ header > img {
 /* Navigation Bar */
 nav {
 	height: 40px;
+	color: white;
 }
 nav > a {
 	display: inline-block;
 	padding: 0 20px;
 	line-height: 40px;
 }
+
+.nav-link {
+	display: block;
+	padding: 0.5rem 1rem;
+	color: white;
+  }
+
+  .nav-link:hover, .nav-link:focus {
+	text-decoration: none;
+	color: darkturquoise;
+  }
 
 .dropdown:hover {
 	background: rgb(66, 66, 66);

@@ -168,29 +168,99 @@
 
 	<!-- Main -->
 	<main>
-		<div class="intro">
-			<h1>Siapa kami?</h1>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
+		<div class="jumbotron jumbotron-fluid jumbomargin">
+			<div class="container">
+				<br>
+				<br>
+				<br>
+				<br>
+			  <h1 class="display-4">Airsoft Information Center</h1> <font s></font>
+			  <p class="pjumbo">This site provides any knowledge about airsoft. You also can browse some Airsoftgun here 
+				  <br>And there's alot of Gear Impression based on famous country</p>
+			</div>
+		  </div>
 
 		<div class="content">
-			<h1>Airsoft Gun</h1>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-		</div>
+			<h1 align="center">What is Airsoft ?</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<!-- Galery -->
+					
+							<!-- The expanding image container -->
+						<div class="container">
+								
+							<!-- Expanded image -->
+	
+							<img id="expandedImg" class="boxshadow" style="width:100%" src="../images/intro2.png" width="540px" height="475px">
+								
+							<!-- Image text -->
+							<div id="imgtext"></div>
+						</div>
+					<div class="containergalery"> 
+						<div class="row">
+							<div class="column">
+										
+							</div>
+							<div class="column">
+								<img   src="../images/intro2.png" alt="" onclick="myFunction(this);">
+							</div>
+							<div class="column">
+									<img   src="../images/intro3.jpg" alt="" onclick="myFunction(this);">
+							</div>
+						</div>
+					</div>
+							
+					</div>
+					  	<div class="col">
+							<p>
+								&emsp;<strong>Airsoft</strong> is a competitive team shooting sport in which participants shoot opponents with spherical plastic projectiles launched via replica air weapons called airsoft guns.<br>
+								<br>
+								&emsp;Gameplay varies in style and composition, but often range from short-term skirmishes, organized scenarios, close quarters battle, field, military simulations <strong> Milsim </strong> or historical reenactments.<br>
+								They are played in indoor courses or outdoor fields.<br>
+								<br>
+								&emsp;Combat situations on the battlefield may involve the use of military tactics to achieve objectives set in each game. Participants may attempt to emulate the tactical equipment and accessories used by modern military and police organizations.<br>
+								<br>
+								&emsp;A game is normally kept safe by trained professionals and the equipment is usually powered by gas or various types of batteries.
+							</p>
+					 	</div>
+				</div>
+			</div>
+
+			<h1 align="center">Military Simulator</h1>
+
+			<div id="carouselExampleControls" class="carousel slide milimg "  data-ride="carousel" >
+				<div class="carousel-inner boxshadow" >
+					<div class="carousel-item active">
+						<img src="../images/Galery/c.jpg"  class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="../images/Galery/q.jpg"   class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item">
+						<img src="../images/Galery/o.jpg"   class="d-block w-100" alt="...">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only"></span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only"></span>
+				</a>
+			</div>
+
+				<p>&emsp;<strong>MilSim</strong> is an abbreviation of military simulation, and refers to armed confrontation scenarios conducted by civilians for entertainment purposes.<br>
+				There are several forms of MilSim: airsoft games, paintball games, and video games simulating military scenarios and tactics.
+				<br>
+				<br>
+				&emsp;Some airsoft teams specialize in MilSim and historical reenactment intended to get the participant "inside the head" of the characters from history. <br>
+				This gives participants a chance to pretend they are part of recent history.
+				</p>
+
+		</div>	
+	
 	</main>
 	
 	<!-- Footer -->
@@ -218,6 +288,20 @@
 	<script src="/js/custom.js"></script>
 
 	<!-- Our Java Script Down Here! -->
+	<script>
+		function myFunction(imgs) {
+			// Get the expanded image
+			var expandImg = document.getElementById("expandedImg");
+			// Get the image text
+			var imgText = document.getElementById("imgtext");
+			// Use the same src in the expanded image as the image being clicked on from the grid
+			expandImg.src = imgs.src;
+			// Use the value of the alt attribute of the clickable image as text inside the expanded image
+			imgText.innerHTML = imgs.alt;
+			// Show the container element (hidden with CSS)
+			expandImg.parentElement.style.display = "block";
+		}
+	</script>
 
 
 </body>

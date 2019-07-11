@@ -22,9 +22,111 @@ main > .intro {
 	background: rgb(226, 226, 226);
 }
 
+.marginintro {
+	margin: 50px, 50px, 50px, 50px;
+	background-color: aquamarine;
+}
+
+/*** MilsimGalery ***/
+.milimg{
+	width: 70%;
+	height: 70%;
+	margin-left: 10%;
+	margin-bottom: 5px;
+	top: -35px;
+}
+
+.containergalery{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 3px;
+	padding-top: 10px;
+	padding-bottom: -100px;
+	background-color: rgba(169, 169, 169, 0.308);
+	border: solid 0px;
+	border-radius: 5px;
+}
+
+/*** Box Shadow ***/
+.boxshadow{
+	box-shadow: 10px -10px 5px rgba(180, 172, 172, 0.685);
+	border: solid 0px;
+	background-color: #eed;
+	border-radius:7px;
+	
+}
+
+  
+/*** Jumbotron ***/
+.jumbomargin {
+	padding-bottom: 10%;
+	background-image: url("../images/marsocedit.png");
+	height: 500px;
+	background-size: 100%;
+	color: white;
+}
+
+/*** Jumbotron Text ***/
+.pjumbo{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 500;
+}
+
+/*** Galery Intro ***/
+/* The grid: Four equal columns that floats next to each other */
+.column {
+	float: right;
+	width: 150px;
+	padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+	opacity: 0.8; 
+	cursor: pointer; 
+	height: 80%;
+	width: 80%;
+  }
+  
+  .column img:hover {
+	opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container p {
+	position: relative;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+  }
+
+
+  /*** Galery Intro Padding ***/
+ 
+
+  /*** Text Intro ***/
+  .pintro{
+	  padding-bottom: 40%;
+	  font-style: verdana;
+	  font-size: 17px;
+  }
+
 main > .content {
 	margin-top: 5px;
-	padding: 10px 5%;
+	padding: 5px 5%;
 
 	width: 100%;
 	background: rgb(226, 226, 226);
