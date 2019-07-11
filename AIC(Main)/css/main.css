@@ -29,8 +29,8 @@ main > .intro {
 
 /*** MilsimGalery ***/
 .milimg{
-	width: 70%;
-	height: 70%;
+	width: 90%;
+	height: 90%;
 	margin-left: 10%;
 	margin-bottom: 5px;
 	top: -35px;
@@ -49,9 +49,9 @@ main > .intro {
 
 /*** Box Shadow ***/
 .boxshadow{
-	box-shadow: 10px -10px 5px rgba(180, 172, 172, 0.685);
+	box-shadow: 10px -10px 5px rgba(102, 93, 81, 0.349);
 	border: solid 0px;
-	background-color: #eed;
+	background-color: rgba(161, 153, 143, 0.315);
 	border-radius:7px;
 	
 }
@@ -59,17 +59,34 @@ main > .intro {
   
 /*** Jumbotron ***/
 .jumbomargin {
-	padding-bottom: 10%;
-	background-image: url("../images/marsocedit.png");
-	height: 500px;
+	padding-bottom: 22%;
+	background-image: url("../images/marsoc2.jpg");
 	background-size: 100%;
+	width: 100%;
 	color: white;
 }
 
 /*** Jumbotron Text ***/
+
+.hjumbo{
+	padding-top: 200px;
+	padding-left: 250px;
+	font:normal 45px Arial, Helvetica, sans-serif;
+	font-style:normal;
+	color:#ffffff;
+	text-shadow:1px 3px 10px rgba(0, 0, 0, 0.836);
+}
 .pjumbo{
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-weight: 500;
+	padding-left: 300px;
+	font-family: "Lucida Sans Unicode";
+	font-size: 20px;
+	letter-spacing: -1.2px;
+	word-spacing: 0.6px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
 }
 
 /*** Galery Intro ***/
@@ -100,7 +117,7 @@ main > .intro {
   }
   
   /* The expanding image container (positioning is needed to position the close button and the text) */
-  .container p {
+  .containerg p {
 	position: relative;
   }
   
@@ -129,14 +146,26 @@ main > .content {
 	padding: 5px 5%;
 
 	width: 100%;
-	background: rgb(226, 226, 226);
+	background: rgba(255, 255, 255, 0.747);
+}
+
+
+main >.content2 {
+	padding: 5px 5%;
+	width: 100%;
+	background: rgba(40, 31, 19, 0.692);
+}
+
+/*** Content Text ***/
+.contenttext2{
+	color: white;
 }
 
 /*** Footer ***/
 footer {
 	margin-top: 5px;
 	padding: 20px 5%;
-	background: rgba(40, 40, 40, 0.80);
+	background: rgba(51, 51, 51, 0.726);
 	text-align: center;
 	color: darkgray;
 }
