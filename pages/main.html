@@ -9,15 +9,15 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<title>Airsoft Information Center</title>
-	<link rel="stylesheet" href="css/header.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="/css/header.css">
+	<link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
 	<!-- Header -->
 	<header>
 		<!-- Logo -->
-		<img src="images/logom4white.png" alt="Logo">
+		<img src="/images/logom4white.png" alt="Logo">
 
 		<!-- Navigation Bar -->
 		<nav class="navbar justify-content-center navbar-expand-md">
@@ -134,23 +134,28 @@
 		</nav>
 		
 		<!-- Search Bar -->
-		<div class="searchbar">
+		<form class="searchbar">
+			<input type="search" placeholder="Search"/>
+			<img src="/images/searchlogo2.png">
+		</form>
+
+		<!--div class="searchbar">
 			<input type="text" placeholder="Search...">
 			<img src="images/searchlogo2.png">
-		</div>
+		</div-->
 	</header>
 
 	<!-- Slider -->
 	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="images/bbedit.jpg" class="d-block w-100" alt="...">
+				<img src="/images/bbedit.jpg" class="d-block w-100" alt="...">
 			</div>
 			<div class="carousel-item">
-				<img src="images/mgedit.png" class="d-block w-100" alt="...">
+				<img src="/images/mgedit.png" class="d-block w-100" alt="...">
 			</div>
 			<div class="carousel-item">
-				<img src="images/otedit.jpg" class="d-block w-100" alt="...">
+				<img src="/images/otedit.jpg" class="d-block w-100" alt="...">
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -211,8 +216,7 @@
 			crossorigin="anonymous"></script>
 	
 	<!-- Angularjs Dependencies -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>   
-	<script src="/js/custom.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 
 	<!-- Our Java Script Down Here! -->
 

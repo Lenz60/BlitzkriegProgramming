@@ -87,7 +87,7 @@ nav > a {
 	
 	width: 0;
 	height: 100%;
-	color: white;
+	color: black;
 	background: transparent;
 
 	transition: width 0.4s ease;
