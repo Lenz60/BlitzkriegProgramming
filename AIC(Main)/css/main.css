@@ -174,3 +174,18 @@ footer {
 	text-align: center;
 	color: darkgray;
 }
+
+
+
+
+/*** Sponsor Slider ***/
+.sponsorimg{
+	width: 30%;
+	height: 30%;
+}
+
+main >.containersponsor{
+	height: 300px;
+	width: 100%;
+	background: rgb(26, 26, 26);
+}
