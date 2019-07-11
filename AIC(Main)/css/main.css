@@ -22,6 +22,11 @@ main > .intro {
 	background: rgb(226, 226, 226);
 }
 
+/*** paragraph Intro ***/
+.pintro {
+	padding-left: 15px;
+}
+
 .marginintro {
 	margin: 50px, 50px, 50px, 50px;
 	background-color: aquamarine;
