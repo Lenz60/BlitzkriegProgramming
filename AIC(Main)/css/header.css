@@ -22,7 +22,8 @@ header {
 
 
 /* Logo */
-header > img {
+
+header >.logo a img{
 	width: auto;
 	height: 40px;
 }
@@ -81,6 +82,15 @@ nav > a {
 	top: -4px;
     left: 100%;
 }
+.dropdown-selected{
+	background: rgba(255, 255, 255, 0.8);
+	color: black;
+	pointer-events: none;
+	cursor: default;
+	text-decoration: none;
+
+}
+
 
 /* Search Bar */
 .searchbar {
