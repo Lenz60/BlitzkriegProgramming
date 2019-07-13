@@ -32,6 +32,15 @@ main > .intro {
 	background-color: aquamarine;
 }
 
+/*** Slider Mechanism ***/
+.mechaimg{
+	width: 90%;
+	height: 90%;
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
 /*** MilsimGalery ***/
 .milimg{
 	width: 90%;
@@ -50,6 +59,7 @@ main > .intro {
 	background-color: rgba(169, 169, 169, 0.308);
 	border: solid 0px;
 	border-radius: 5px;
+	image-resolution: auto;
 }
 
 /*** Box Shadow ***/
@@ -65,10 +75,23 @@ main > .intro {
 /*** Jumbotron ***/
 .jumbomargin {
 	padding-bottom: 22%;
-	background-image: url("../images/marsoc2.jpg");
 	background-size: 100%;
+	background-repeat: no-repeat;
 	width: 100%;
 	color: white;
+}
+.jumbohome{
+	background-image: url("../images/marsoc2.jpg");
+}
+
+.jumbomecha{
+	background-image: url("../images/Types/HPA3edit.png");
+	padding-top: 10%;
+}
+
+.jumbofield{
+	background-image: url("../images/Field/field.png");
+	padding-top: 10%;
 }
 
 /*** Jumbotron Text ***/
@@ -81,6 +104,21 @@ main > .intro {
 	color:#ffffff;
 	text-shadow:1px 3px 10px rgba(0, 0, 0, 0.836);
 }
+
+.jumbotext{
+	margin-top: 1%;
+}
+
+.hjumbopages{
+	padding-top: 150px;
+	padding-left: 300px;
+	justify-content: center;
+	font:normal 45px Helvetica, sans-serif;
+	font-style:normal;
+	color:#ffffff;
+	text-shadow:1px 3px 10px rgba(0, 0, 0, 0.836);
+}
+
 .pjumbo{
 	padding-left: 300px;
 	font-family: "Lucida Sans Unicode";
@@ -146,20 +184,58 @@ main > .intro {
 	  font-size: 17px;
   }
 
-main > .content {
-	margin-top: 5px;
-	padding: 5px 5%;
+  .pintromecha{
+	padding-top: 2%;
+	font-style: verdana;
+	font-size: 17px;
+}
 
+/* Content */
+.content {
+	padding: 10px;
+}
+.content2 {
+	padding: 10px;
+}
+
+.contentmecha1{
+	padding: 10px;
+}
+
+.containermecha{
+	height: 200px;
+}
+
+/*** contact ***/
+.logocontact{
+	float: left;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+
+.textcontact{
+	padding-top: 10px;
+}
+
+/*** Container Contact ***/
+.containercontact{
+	margin: auto;
+}
+
+
+main > .content {
+	padding: 5px 5%;
 	width: 100%;
 	background: rgba(255, 255, 255, 0.747);
 }
-
 
 main >.content2 {
 	padding: 5px 5%;
 	width: 100%;
 	background: rgba(40, 31, 19, 0.692);
 }
+
+
 
 /*** Content Text ***/
 .contenttext2{
@@ -180,12 +256,20 @@ footer {
 
 /*** Sponsor Slider ***/
 .sponsorimg{
-	width: 30%;
-	height: 30%;
+	width: 15%;
+	height: 15%;
+	margin-left: 8%;
+	border-radius: 5px;
+}
+
+.swipesponsor{
+
+    overflow:auto;
+    white-space:nowrap;
 }
 
 main >.containersponsor{
 	height: 300px;
 	width: 100%;
-	background: rgb(26, 26, 26);
+	background: rgba(206, 206, 206, 0.651);
 }
