@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Bootstrap required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<title>Airsoft Information Center</title>
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<!-- Logo -->
+		<div  class="logo">
+				<a href="../pages/main.html"><img  src="../images/logom4white.png" alt="Logo"></a>
+		</div>
+		<!-- Navigation Bar -->
+		<nav class="navbar justify-content-center navbar-expand-md">
+                <!--div class="collapse navbar-collapse" id="navbarNavDropdown"></div-->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/main.html">Home</a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="armory" 
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Armory
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Handgun</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/glock.html">Glock18</a></li>
+                                    <li><a class="dropdown-item" href="../pages/m1911.html">M1911</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Assault Rifles</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">AK</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../pages/ak47.html">AK47</a></li>
+                                            <li><a class="dropdown-item" href="../pages/aks74.html">AKS74</a></li>
+                                            <li><a class="dropdown-item" href="../pages/ak12.html">AK12</a></li>
+                                            <li><a class="dropdown-item" href="../pages/pp19.html">PP19-01</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">M4</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../pages/m16.html">M16</a></li>
+                                            <li><a class="dropdown-item" href="../pages/m4a1.html">M4A1</a></li>
+                                            <li><a class="dropdown-item" href="../pages/mk18.html">MK18</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+    
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Bolt Action</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/m24.html">M24</a></li>
+                                    <li><a class="dropdown-item" href="../pages/l96.html">L96</a></li>
+                                    <li><a class="dropdown-item" href="../pages/kar98.html">Kar98k</a></li>
+                                    <li><a class="dropdown-item" href="../pages/mosin.html">Mosin Nagant</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">SMG</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">MP5</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../pages/mp5sd.html">MP5 SD</a></li>
+                                            <li><a class="dropdown-item" href="../pages/mp5.html">MP5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">UMP</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../pages/ump45.html">UMP 45</a></li>
+                                            <li><a class="dropdown-item" href="../pages/ump9.html">UMP 9</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="rules" 
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Rules & Mechanism
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="rules">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Rules</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/rof.html">Rate Of Fire</a></li>
+                                    <li><a class="dropdown-item" href="../pages/rog.html">Rule Of Game</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="../pages/mechanism.html">Mechanism</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="gear" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Gear
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="gear">		
+                            <li><a class="dropdown-item" href="../pages/usa.html">USA</a></li>
+                            <li><a class="dropdown-item" href="../pages/japan.html">Japan</a></li>
+                            <li><a class="dropdown-item dropdown-selected" href="../pages/russia.html">Russia</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/field.html">Field</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- End Of Navbar -->
+		
+		<!-- Search Bar -->
+		<div class="searchbar">
+			<input type="text" placeholder="Search...">
+			<img src="../images/searchlogo2.png">
+		</div>
+	</header>
+
+	<!-- Slider
+		
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="../images/bbedit.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="../images/mgedit.png" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="../images/otedit.jpg" class="d-block w-100" alt="...">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	-->
+	
+
+	<!-- Main -->
+	<main>
+		<div class="jumbotron jumbotron-fluid jumbomargin jumborussia">
+			<div class="container">
+			  <h1 class="display-4 hjumbopages">RUSSIAN GEAR LOADOUT</h1>
+			</div>
+		  </div>
+
+		<div class="content">
+			<h1 align="center">TYPES OF AIRSOFT GUNS</h1>
+			<div class="containermecha1">
+				<!--Sources : Reddit-->
+				<div class="row">
+					  	<div class="col">
+							<p class="pintromecha">
+									&emsp;&emsp;The first thing for you to know is what kind of airsoft gun you want. <br>
+									In this case, 'kind' refers to what mechanism makes the BB fly out of the barrel. 
+									The kind of airsoft gun you choose will affect its price, availability of replacement parts, feasibility of repair, longevity, and to a certain degree, quality.
+							</p>
+					 	</div>
+				</div>
+			</div>
+		</div>
+		<!--Start Of Content2-->
+		<div class="content2 contenttext2">
+			<div>
+				<h2>AEG (Automatic Electric Gun)</h2>
+				<h3 class="lineh"></h3>
+				<br>
+			</div>
+
+			<div class="row">
+				<div class="col jumbotext">
+					<p>&emsp;&emsp;<strong>AEGs</strong> are the near-universally recommended type of airsoft gun for noobs.
+						They own the vast majority of the airsoft rifle market, and for good reason.<br>
+						A good AEG is reliable, cheap, simple, and relatively easy to tear down and rebuild. <br>
+						<br>
+						&emsp;If you are looking into getting an AEG, you need to know what price point (or price range) you want and which real-life gun you want it to be a replica of (known as the platform). <br>
+						Once you've done that, you can select a specific gun by choosing which features are important to you. These features can be anything from a specific buttstock, to a certain material for construction, to certain included items like a battery and charger.
+					</p>
+				</div>
+
+				<div class="col">
+					<div id="carouselExampleControls1" class="carousel slide mechaimg "  data-ride="carousel" >
+						<div class="carousel-inner boxshadow" >
+							<div class="carousel-item active">
+								<img src="../images/Types/AEG.PNG"  class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="../images/Types/AEG2.PNG"   class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">			
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--End Of Content2-->
+
+		<!--Start Of Content1-->
+		<div class="content">
+				<div>
+					<h2>BASR (Bolt-Action Sniper Rifle)</h2>
+					<h3 class="lineh"></h3>
+					<br>
+				</div>				
+				<div class="row">
+						<div class="col">
+								<div id="carouselExampleControls2" class="carousel slide mechaimg "  data-ride="carousel" >
+									<div class="carousel-inner boxshadow" >
+										<div class="carousel-item active">
+											<img src="../images/Types/BOLT1.PNG"  class="d-block w-100" alt="...">
+										</div>
+									</div>
+									<a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+									</a>
+									<a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">			
+									</a>
+								</div>
+							</div>
+
+					<div class="col jumbotext">
+						<p>&emsp;&emsp;<strong>BASRs</strong>, are the popular choice for people who want to focus on movement and positioning over shooting. <br>
+							&emsp;Due to their limited fire-rate and magazine capacity, BASRs require the operator to rely on their knowledge of the field and ability to remain patiently hidden rather than on the firepower of the rifle itself.<br>
+							<br> 
+							&emsp;BASRs do have some advantages over AEGs. A base model BASR is generally significantly weaker than an AEG in all respects. However, the performance ceiling for a modified BASR is far greater and enables good precision at extremely long range.<br>
+							&emsp;BASRs also have the advantage of less noise, allowing a well-hidden sniper to remain so. For those reasons, it is strongly recommended that noobs not use BASRs until they have the required knowledge, skills, and financial commitment to airsoft to take full advantage of the BASR's strengths.
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--End Of Content1-->
+
+			<!--Start Of Content2-->
+		<div class="content2 contenttext2">
+				<div>
+					<h2>GBBR (Gas Blowback Rifle)</h2>
+					<h3 class="lineh"></h3>
+					<br>
+				</div>
+				
+				<div class="row">
+					<div class="col jumbotext">
+						<p>&emsp;&emsp;<strong>GBBRs</strong> are a much more expensive starting option.
+							An entry-level GBBR will often cost over $300 for the base gun alone, plus the cost of ownership is much higher than an AEG; GBBRs require gas and have more expensive magazines and parts.<br> 
+							<br>
+							&emsp;The complexity of repair also increases for a GBBR compared to an AEG. The benefits, on the other hand, are also great.<br>
+							&emsp;Their premium price point leads to the average build quality of a GBBR being much higher than that of an AEG. The greatest advantage a GBBR has over an AEG is its blowback, which many people value highly for its 'realistic' feel. Overall, GBBRs are generally preferred by those seeking a simulation experience rather than a competitive experience.
+						</p>
+					</div>
+	
+					<div class="col">
+						<div id="carouselExampleControls3" class="carousel slide mechaimg "  data-ride="carousel" >
+							<div class="carousel-inner boxshadow" >
+								<div class="carousel-item active">
+									<img src="../images/Types/GBBR.png"  class="d-block w-100" alt="...">
+								</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">			
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--End Of Content2-->
+	
+			<!--Start Of Content1-->
+			<div class="content">
+				<div>
+					<h2>GBBP (Gas Blowback Pistol)</h2>
+					<h3 class="lineh"></h3>
+					<br>
+				</div>
+					
+					<div class="row">
+							<div class="col">
+									<div id="carouselExampleControls4" class="carousel slide mechaimg "  data-ride="carousel" >
+										<div class="carousel-inner boxshadow" >
+											<div class="carousel-item active">
+												<img src="../images/Types/GBBP.png"  class="d-block w-100" alt="...">
+											</div>
+											<div class="carousel-item">
+													<img src="../images/Types/GBBP2.png"  class="d-block w-100" alt="...">
+											</div>
+										</div>
+										<a class="carousel-control-prev" href="#carouselExampleControls4" role="button" data-slide="prev">
+										</a>
+										<a class="carousel-control-next" href="#carouselExampleControls4" role="button" data-slide="next">			
+										</a>
+									</div>
+								</div>
+	
+						<div class="col jumbotext">
+							<p>&emsp;&emsp;Unlike the relationship between the GBBR and the AEG, a <strong>GBBP</strong> is usually much better than an AEP (automatic electric pistol) if you're looking for a handgun.<br>
+								Good GBBPs can be found for about $100 brand new, then another $50 for extra magazines if desired.<br>
+								<br>
+								&emsp;There are two schools of thought on the matter of noobs buying GBBPs: those that believe that noobs should spend their money elsewhere before getting a sidearm, and those who believe that the fun-value of a sidearm outweighs its cost.<br>
+								&emsp;Which camp you fall into is your personal preference. If you plan to spend more time plinking (shooting targets in a backyard) than playing airsoft as a sport, a GBBP is great. Otherwise your money will be better spent on a higher-quality primary.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!--End Of Content1-->
+
+				<!--Start Of Content2-->
+		<div class="content2 contenttext2">
+				<div>
+					<h2>HPA (High-Pressure Air)</h2>
+					<h3 class="lineh"></h3>
+					<br>
+				</div>
+				
+				<div class="row">
+					<div class="col jumbotext">
+						<p>&emsp;&emsp;A third option for primary rifles, <strong>HPA systems</strong> are by far the least recommended option for noobs.<br>
+							An HPA system uses heavily compressed air fed from a canister into the gun to propel BBs out of the barrel.<br>
+							<br> 
+							&emsp;HPA systems are complex (if you're DIYing the HPA-tap), expensive, and can even be dangerous if mishandled. 
+							However, HPA systems are extremely flexible and can be made much more powerful than any AEG or GBBR. 
+							With the great power of an HPA system comes its great responsibility. If used and maintained appropriately HPA systems can be a lot more reliable than electricity or gas due to their lack of reliance on a second ammunition (batteries, CO2 canisters, or green-gas/propane).
+						</p>
+					</div>
+	
+					<div class="col">
+						<div id="carouselExampleControls5" class="carousel slide mechaimg "  data-ride="carousel" >
+							<div class="carousel-inner boxshadow" >
+								<div class="carousel-item active">
+									<img src="../images/Types/HPA1.png"  class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+										<img src="../images/Types/HPA2.png"  class="d-block w-100" alt="...">
+								</div>
+								<div class="carousel-item">
+											<img src="../images/Types/HPA4.png"  class="d-block w-100" alt="...">
+									</div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleControls5" role="button" data-slide="prev">
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleControls5" role="button" data-slide="next">			
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--End Of Content2-->
+
+				
+		 <!--Start of Sponsor-->
+		 <div class="containersponsor bordersponsor">
+            <div class="swipesponsor">
+                <h2 align="center">Our Sponsor :</h2>
+                <div>
+                        <a target="_blank" href="https://www.instagram.com/gastroops/">
+                            <img class="sponsorimg" src="../images/Sponsor/gas.png">
+                        </a> 
+                        <a target="_blank" href="https://www.instagram.com/battlegroundjogja/">
+                            <img class="sponsorimg" src="../images/Sponsor/bg.jpg">
+                        </a> 
+                        <a target="_blank" href="http://www.jackstormtactical.com/">
+                            <img class="sponsorimg" src="../images/Sponsor/js.png">
+                        </a> 
+                        <a target="_blank" href="https://www.facebook.com/VajraPatchworks/">
+                            <img class="sponsorimg" src="../images/Sponsor/vajra.png">
+                        </a> 
+                        <a target="_blank" href="https://facebook.com/zhukovau.id/">
+                            <img class="sponsorimg" src="../images/Sponsor/zhukoyevich.jpg">
+                        </a> 
+                </div>
+            </div>
+        </div>
+    <!--End of Sponsor-->
+</main>
+	
+
+
+
+
+	
+	<!-- Footer -->
+	<footer>
+			
+
+		Copyright 2019 Blitzkrieg Team, All right reserved.
+	</footer>
+
+	<!------------------------------------------------------------------------------------------>
+	<!------------------------------------------------------------------------------------------>
+	<!------------------------------------------------------------------------------------------>
+	
+	<!-- Bootstrap Dependencies -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+			crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+			crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+			crossorigin="anonymous"></script>
+	
+	<!-- Angularjs Dependencies -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>   
+	<script src="/js/custom.js"></script>
+
+	<!-- Our Java Script Down Here! -->
+
+	<!-- Galery Intro -->
+	<script>
+		function myFunction(imgs) {
+			// Get the expanded image
+			var expandImg = document.getElementById("expandedImg");
+			// Get the image text
+			var imgText = document.getElementById("imgtext");
+			// Use the same src in the expanded image as the image being clicked on from the grid
+			expandImg.src = imgs.src;
+			// Use the value of the alt attribute of the clickable image as text inside the expanded image
+			imgText.innerHTML = imgs.alt;
+			// Show the container element (hidden with CSS)
+			expandImg.parentElement.style.display = "block";
+		}
+	</script>
+
+</body>
+</html>

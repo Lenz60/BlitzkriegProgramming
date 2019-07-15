@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Bootstrap required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<title>Airsoft Information Center</title>
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<!-- Logo -->
+		<div  class="logo">
+				<a href="../pages/main.html"><img  src="../images/logom4white.png" alt="Logo"></a>
+		</div>
+		<!-- Navigation Bar -->
+		<nav class="navbar justify-content-center navbar-expand-md">
+				<!--div class="collapse navbar-collapse" id="navbarNavDropdown"></div-->
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="../pages/main.html">Home</a>
+					</li>
+	
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="armory" 
+						   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						   Armory
+						</a>
+						<ul class="dropdown-menu">
+							<li class="dropdown-submenu">
+								<a class="dropdown-item dropdown-toggle" href="#">Handgun</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../pages/glock.html">Glock18</a></li>
+									<li><a class="dropdown-item" href="../pages/m1911.html">M1911</a></li>
+								</ul>
+							</li>
+	
+							<li class="dropdown-submenu">
+								<a class="dropdown-item dropdown-toggle" href="#">Assault Rifles</a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-submenu">
+										<a class="dropdown-item dropdown-toggle" href="#">AK</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="../pages/ak47.html">AK47</a></li>
+											<li><a class="dropdown-item" href="../pages/aks74.html">AKS74</a></li>
+											<li><a class="dropdown-item" href="../pages/ak12.html">AK12</a></li>
+											<li><a class="dropdown-item" href="../pages/pp19.html">PP19-01</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu">
+										<a class="dropdown-item dropdown-toggle" href="#">M4</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="../pages/m16.html">M16</a></li>
+											<li><a class="dropdown-item" href="../pages/m4a1.html">M4A1</a></li>
+											<li><a class="dropdown-item" href="../pages/mk18.html">MK18</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+	
+							<li class="dropdown-submenu">
+								<a class="dropdown-item dropdown-toggle" href="#">Bolt Action</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../pages/m24.html">M24</a></li>
+									<li><a class="dropdown-item" href="../pages/l96.html">L96</a></li>
+									<li><a class="dropdown-item" href="../pages/kar98.html">Kar98k</a></li>
+									<li><a class="dropdown-item" href="../pages/mosin.html">Mosin Nagant</a></li>
+								</ul>
+							</li>
+	
+							<li class="dropdown-submenu">
+								<a class="dropdown-item dropdown-toggle" href="#">SMG</a>
+								<ul class="dropdown-menu">
+									<li class="dropdown-submenu">
+										<a class="dropdown-item dropdown-toggle" href="#">MP5</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="../pages/mp5sd.html">MP5 SD</a></li>
+											<li><a class="dropdown-item" href="../pages/mp5.html">MP5</a></li>
+										</ul>
+									</li>
+									<li class="dropdown-submenu">
+										<a class="dropdown-item dropdown-toggle" href="#">UMP</a>
+										<ul class="dropdown-menu">
+											<li><a class="dropdown-item" href="../pages/ump45.html">UMP 45</a></li>
+											<li><a class="dropdown-item" href="../pages/ump9.html">UMP 9</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+	
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="rules" 
+						   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Rules & Mechanism
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="rules">
+							<li class="dropdown-submenu">
+								<a class="dropdown-item dropdown-toggle dropdown-selected" href="#">Rules</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item" href="../pages/rof.html">Rate Of Fire</a></li>
+									<li><a class="dropdown-item dropdown-selected" href="../pages/rog.html">Rule Of Game</a></li>
+								</ul>
+							</li>
+							<li><a class="dropdown-item" href="../pages/mechanism.html">Mechanism</a></li>
+						</ul>
+					</li>
+	
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="gear" 
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Gear
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="gear">		
+							<li><a class="dropdown-item" href="../pages/usa.html">USA</a></li>
+							<li><a class="dropdown-item" href="../pages/japan.html">Japan</a></li>
+							<li><a class="dropdown-item" href="../pages/russia.html">Russia</a></li>
+						</ul>
+					</li>
+	
+					<li class="nav-item">
+						<a class="nav-link" href="../pages/field.html">Field</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- End Of Navbar -->
+		
+		<!-- Search Bar -->
+		<div class="searchbar">
+			<input type="text" placeholder="Search...">
+			<img src="../images/searchlogo2.png">
+		</div>
+	</header>
+
+	<!-- Slider
+		
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="../images/bbedit.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="../images/mgedit.png" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="../images/otedit.jpg" class="d-block w-100" alt="...">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	-->
+	
+
+	<!-- Main -->
+	<main>
+		<div class="jumbotron jumbotron-fluid jumbomargin jumborog">
+			<div class="container">
+			  <h1 class="display-4 hjumbopages">RULE OF GAME</h1>
+			</div>
+		  </div>
+
+		  <div class="content">
+				<h1 align="center">On Field and Off Field Safety Rules</h1>
+				<div class="containermecha1">
+					<!--Sources : https://airsoftforest.com/airsoft-safety-guide-on-field-and-off-field-safety-rules/-->
+					<div class="row">
+							  <div class="col">
+								<p class="pintromecha">
+										&emsp;&emsp;Airsoft is more than only shooting BB’s from your most important piece of equipment. It is also about safety on the field as well as off the field.<br>
+										&emsp;Airsoft safety is about different things. It’s about the law, knowing the field rules, wearing safety gear, how to treat your replica and Airsoft safety for kids.<br>
+										<br>
+										&emsp;&emsp;This article is about everything you need to know about Airsoft safety. <strong>Is Airsoft safe? YES, Airsoft is safe!</strong>  As long as you respect local law and field rules, having proper safety gear and treat your gun like a real firearm.<br>
+										&emsp;Instead of sitting down behind my computer playing Command an Conquer I now play Airsoft. It’s  much, much more fun and you meet other people with the same interest. It’s awesome!
+								</p>
+							 </div>
+							 <div class="col">
+								 <div class="rogimg boxshadowrog">									
+										 <img src="../images/Rule/selector.jpg">
+								 </div>									
+							</div>
+					</div>
+				</div>
+			</div>
+			<!--Start Of Content2-->
+			<div class="content2 contenttext2">
+				<div>
+					<h2>Airsoft (Safety) Rules On The Field</h2>
+					<h3 class="lineh"></h3>
+					<br>
+				</div>
+	
+				<div class="row">
+					<div class="col jumbotext">
+						<p>&emsp;&emsp;&emsp;Your number one priority is to protect yourself. This is because it really hurts when you get shot and a BB hits you. You even can get injured when wearing no proper safety gear.<br>
+							<br>
+							<ul class="ulrog">
+								<li>&nbsp;&nbsp;&nbsp;First you should wear safety goggles during the game. On most Airsoft fields it is prohibited to play Airsoft without safety goggles.<br>
+									I recommend to wear a face mask too. Not only your eyes but your whole face is very sensitive. You definitely feel some pain when you get hit in your face.  
+									Additionally I would even recommend a shemagh.</li>
+								<li>
+									&nbsp;&nbsp;&nbsp;Next up. Practice safe trigger discipline. Hold your finger on the side of the lower receiver at all times. When you are ready to fire, only then bring your finger<br>
+									to the trigger.<br>
+									&nbsp;&nbsp;The same applies to muzzle awareness. Only point your replica at whoever you’re aiming to actually fire upon. Only in that instance you should have your<br>
+									finger on the trigger when you’re on the field.
+								</li>
+								<li>
+									&nbsp;&nbsp;&nbsp;Notify the enemy when you got hit. Shout “HIT” and act like being hit. Don’t cheat here and paly a fair game.<br>
+									Your opponent is considered alive until he announces he has been hit. I someone is cheating then it is it’s own responsibility.
+								</li>
+								<li>
+									&nbsp;&nbsp;&nbsp;After being hit, a medic has 5 minutes to treat you. If a medic can’t make it in 5 minutes the Airsoft player who got hit is considered dead. The maximum<br>
+									treatment time is 2 minutes.
+								</li>
+								<li>
+									&nbsp;&nbsp;&nbsp;If only your replica was hit, you can use your secondary. You only may use your primary after you’ve been through the respawn area.
+								</li>
+								<li>
+									If a player is considered dead, he walks with a dead rag over his head to the respawn area. I know it’s tempting to reveal enemy positions during your way to<br>
+									the respawn area but please don’t. Keep it fair play.
+								</li>
+								<li>
+									&nbsp;&nbsp;&nbsp;As a grenadier you’re likely to use a grenade when necessary. But when is your opponent considered as dead? Well, if a grenade explodes within 3 meters and<br>
+									when there is no obstruction in between.
+								</li>
+								<li>
+									&nbsp;&nbsp;&nbsp;A respawn is considered some sort of Safe Zone. Therefore it’s forbidden to shoot through the respawn area.
+								</li>
+								<li>
+									&nbsp;&nbsp;&nbsp;Let the Off Zone be the Off Zone. Make sure that everyone put his replica on safe.
+								</li>
+							</ul>
+							<p>
+								&nbsp;&nbsp;In my search for field rules I found a great video from Airsplat who defines clearly what is allowed or not. Maybe you’ve seen it once.
+							</p>
+							<div align="center">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/CnVNyFA-3q0?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--End Of Content2-->
+	
+			<!--Start Of Content1-->
+			<div class="content">
+					<div>
+						<h1 align="center">Airsoft Safety Gear</h1>
+					</div>				
+					<div class="row">
+						<div class="col jumbotext">
+							<p>&emsp;&emsp;Face protection should paramount for all Airsofters. We play Airsoft because we want to have fun. 
+								What is worse than getting injured while it was preventable? Many<br>
+								Airsofters become aware of safety issues over time. And by experience. To help you further in becoming more aware we discuss the main safety gear to keep you out of trouble.
+							</p>
+						</div>
+					</div>
+					<div id="safety1">
+						<div>
+							<h3>Airsoft Safety Googles</h3>
+							<h3 class="lineh"></h3>
+							<br>
+						</div>
+							<p>
+								&emsp;&emsp;All Airsofters know that you must always wear eye protection. On most fields it’s even prohibited to have no face protection. When looking for the right eye protection, be aware of the difference in quality. Look for eye protection that is impact rated. The ANSI Z 87 is a well known characteristic of an impact rated goggle. In Europe it’s EN 166.<br>
+								&emsp;These characteristics are very import because many goggles and glasses which are marked for Airsoft will not provide adequate protection. A mesh mask for example can get fragmented when you get shot and result in shards of plastic that will hit your eye. So be careful in choosing the right face protection.<br>					
+								&emsp;Additionally look for eye protection that has a fully seal. This will prevent a BB entering into the sides of your goggle causing injury on your eyes.
+							</p>
+					</div>
+
+					<div id="safety2">
+							<div>
+								<h3>Airsoft Safety Mask</h3>
+								<h3 class="lineh"></h3>
+								<br>
+							</div>
+							<p>
+								&emsp;&emsp;To protect your cheeks, teeth and ears use full face mask. Your face is more sensitive than other parts of your body so don’t save on protective gear. I recommend a full<br>
+								face mask with goggle to protect your whole face
+							</p>
+					</div>
+					<div id="safety3">
+							<div>
+								<h3>Airsoft Safety Footwear</h3>
+								<h3 class="lineh"></h3>
+								<br>
+							</div>
+							<p>
+								&emsp;&emsp;One of the most common injuries in Airsoft is rolled ankles. Airsoft fields are pretty hazardous and uneven so it’s easy to lose your footing. We definitely recommend<br>
+								some military boots. Instead, we don’t recommend wearing some sneakers or something similar because these ar not proper footwear for Airsoft.<br>
+								<br>
+								&emsp;&emsp;Good military Airsoft boots will help you provide adequate ankle protection that will help you keep your footing. If you you step on something sharp or uneven, your<br>
+								boots will prevent you from rolled ankles because of their rugged construction.
+							</p>
+					</div>
+					<div id="safety4">
+							<div>
+								<h3>Carry A First Aid</h3>
+								<h3 class="lineh"></h3>
+								<br>
+							</div>
+							<p>
+								&emsp;&emsp;Not every Airsofter needs to carry a first aid kit. I’d like to see that at least one or two of my teammates has a first aid kit. Before we get started or even hit the field we also make sure that all of or teammates know who is the first aider. <br>
+								&emsp;&emsp;We also plan on where we locate first aid kits in case somebody get really injured. Unfortunately carrying a first aid kit is not enough….You should know how to use it.<br>
+								Therefore one or two teammates should best have had a first aid training. A typical first aid kit contains of triangle and compression bandages, gauze, nitrile gloves, scissors, <br>
+								medical tape and antiseptic spray.
+							</p>
+					</div>
+						
+			</div>
+				<!--End Of Content1-->
+			<div class="content2 contenttext2">
+					<div>
+						<h1 align="center">How to Treat Your Treatment</h1>
+					</div>				
+					<div class="row">
+						<div class="col jumbotext">
+							<p>
+								&emsp;&emsp;One of the most important rules in Airsoft: treat your gun as it is a real firearm and as it is loaded at any time. Draw for Airsoft is it’s realistic nature and closeness of<br>
+								relation to real firearms. Real firearms should be treated with respect and responsibility. The same requires for an Airsoft gun.
+								<br>
+								&emsp;&emsp;In my research to what the law states the word “toy” has been used several times. That surprised me. Is it a toy? Well, I don’t think it’s a toy. In many cases minors need<br>
+								supervision from their parents. You can call it a toy but in fact it’s a “device” that fires a projectile round an with that comes the responsibility that we should all be taking<br>
+								part of. How to take your responsibility?
+							</p>
+						</div>
+					</div>
+					<div id="treat1">
+						<div>
+							<h3>Muzzle Awareness</h3>
+							<h3 class="lineh"></h3>
+							<br>
+						</div>
+						<p>
+							&emsp;&emsp;Be aware of where your muzzle is being pointed. Most beginners are to busy with other things like operating their gun and not being hit. This causes an unawareness of where they point their muzzle.<br>
+							&emsp;&emsp;Never point your gun at anything you are not willing to shoot at. Make sure you have pointed your gun either in the sky or towards the ground. When you’re not<br>
+							playing you can use a barrel sock to avoid potential injuries. Many fields even require them so to make sure that nothing comes out or your barrel when you’re not intend<br>
+							to.
+						</p>
+					</div>
+					<div id="treat2">
+						<div>
+							<h3>Trigger Discipline</h3>
+							<h3 class="lineh"></h3>
+							<br>
+						</div>
+						<p>
+							&emsp;&emsp;Be aware of where you put your finger when you not intend to pull the trigger. Your finger should always be above the trigger on the side of the receiver. Do this with every Airsoft gun and treat it like a real firearm. That way you and others stay safe and get not accidentally injured.<br>
+							&emsp;&emsp;The goal to create trigger awareness is to avoid common injuries. Taking that one step further, eject your magazine when you’re exiting the field or when you’re not in<br>
+							play. Doing that by taking the magazine out of your gun and shoot several times and put it on safety. By shooting several times you make sure that your breech load is<br>
+							clear. So when you exit the field there is no possibility of any accident or mistake happening when using the gun in an inappropriate area.
+						</p>
+					</div>
+					<div id="treat3">
+						<div>
+							<h3>Storage</h3>
+							<h3 class="lineh"></h3>
+							<br>
+						</div>
+						<div class="row">
+								<div class="col">
+										<p>
+												&emsp;&emsp;When you store your Airsoft replica make sure that it is unloaded, the magazine is released and nog BB’s are left in the chamber. If it’s a gas powered make sure that you expel any gas in the magazines. If you have an AEG always disconnect the battery before you store your replica.<br>
+												&emsp;&emsp;Two reasons: it’s better for the battery and it guarantees that it will not fire when it’s stored.<br>
+												&emsp;&emsp;Keep your gun safe in a lockable gun bag / carrying case. Only you have access to your replica. Keep it in a gun case until you get to the field or a gun repair. If you can’t afford an gun bag you can use your Airsoft box that every gun comes in.<br>
+												&emsp;&emsp;We wouldn’t recommend to put your gun in a backpack or any other storage compartment. Of course it’s the cheapest option but it’s not prohibited. Besides that, gun bags are very affordable these days.
+											</p>
+								</div>
+								
+								<div class="col">
+										<div id="carouselExampleControls1" class="carousel slide mechaimg "  data-ride="carousel" >
+											<div class="carousel-inner boxshadow" >
+												<div class="carousel-item active">
+													<img src="../images/Rule/gunbag1.jpg"  class="d-block w-100" alt="...">
+												</div>
+												<div class="carousel-item">
+														<img src="../images/Rule/gunbag2.jpg"  class="d-block w-100" alt="...">
+												</div>
+												<div class="carousel-item">
+														<img src="../images/Rule/gunbag3.jpg"  class="d-block w-100" alt="...">
+												</div>
+											</div>
+											<a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+											</a>
+											<a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">			
+											</a>
+										</div>
+								</div>
+						</div>						
+					</div>
+					<!--End Of treat3-->
+					<div id="treat4">
+							<div>
+								<h3>Put Your Replica On Safe</h3>
+								<h3 class="lineh"></h3>
+								<br>
+							</div>
+							<div class="row">
+								<div class="col">
+										<div id="carouselExampleControls2" class="carousel slide mechaimg "  data-ride="carousel" >
+												<div class="carousel-inner boxshadow" >
+													<div class="carousel-item active">
+															<img src="../images/Rule/selector5.jpg"  class="d-block w-100" alt="...">
+													</div>
+													<div class="carousel-item">
+															<img src="../images/Rule/selector4.jpg"  class="d-block w-100" alt="...">
+													</div>
+													<div class="carousel-item">
+															<img src="../images/Rule/selector3.jpg"  class="d-block w-100" alt="...">
+													</div>
+												</div>
+												<a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+												</a>
+												<a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">			
+												</a>
+										</div>
+								</div>
+								<div class="col">
+										<p class="psave">
+											&emsp;&emsp;When not in use, put your gun on safe. That will prevent you from accidentally pulling the trigger, in the moment your gun should on safe and pointed away from people.
+										</p>
+								</div>
+							</div>	
+					</div>
+					<div id="treat5">
+						<div>
+							<h3>Check Your Chamber/Barrel</h3>
+							<h3 class="lineh"></h3>
+							<br>
+						</div>
+						<p>
+							&emsp;&emsp;There will usually be a BB in the chamber after you release your magazine. To clear the barrel and or chamber do this: unload your magazine, fire a couple of times in a safe direction away from others and put it on safe.<br>
+							&emsp;&emsp;Clearing your Airsoft replica away from others will make sure that you’re being safe off the Airsoft field. That causes an unnecessary strain on your gears, your piston<br>
+							and your spring. That will result in a lower spring tension has a negative impact on accuracy and FPS. 
+						</p>
+					</div>
+					<div id="treat6">
+							<div>
+								<h3>Orange Tip</h3>
+								<h3 class="lineh"></h3>
+								<br>
+							</div>
+							<div class="row">
+									<div class="col">
+											<p>
+												&emsp;&emsp;The main reason for the orange tip is to differentiate your Airsoft replica from a<br>
+												real firearm.<br>
+												&emsp;&emsp;It is even mandated by the Federal Law that an Airsoft replica is sold with an<br>
+												orange tip. Airsoft replica with orange tipIs it allowed to remove the orange tip? It<br>
+												depends on your local state law.
+											</p>
+									</div>
+									
+									<div class="col">
+											<div id="carouselExampleControls3" class="carousel slide mechaimg "  data-ride="carousel" >
+												<div class="carousel-inner boxshadow" >
+													<div class="carousel-item active">
+														<img src="../images/Rule/ot.jpg" class="d-block w-100" alt="...">
+													</div>
+													<div class="carousel-item">
+															<img src="../images/Rule/ot1.jpg"  class="d-block w-100" alt="...">
+													</div>
+													<div class="carousel-item">
+															<img src="../images/Rule/ot2.jpg"  class="d-block w-100" alt="...">
+													</div>
+													<div class="carousel-item">
+															<img src="../images/Rule/ot3.jpg"  class="d-block w-100" alt="...">
+													</div>
+												</div>
+												<a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
+												</a>
+												<a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">			
+												</a>
+											</div>
+									</div>
+							</div>						
+						</div>
+				</div>
+				<div class="content">
+						<h1 align="center">CONCLUSION ON SAFETY</h1>
+						<div class="containermecha1">
+							<!--Sources : https://airsoftforest.com/airsoft-safety-guide-on-field-and-off-field-safety-rules/-->
+							<p class="pintromecha">
+									&emsp;&emsp;Is Airsoft safe to play? Yes, like any other sport it is safe as long as you know the law, follow the rules, handle your replica with respect and use proper safety gear.<br>
+									<br>
+									&emsp;&emsp;Unfortunately there is still that stigma on playing with Airsoft replica’s. A lot of people will freak out if they see a child with an Airsoft replica in public. Several shooting incidents in the past are of course the main reason for that. But most of these incidents were caused by confusion with real guns. And therefore I do say it again: DON’T take your gun out in public!<br>
+									<br>							
+									&emsp;&emsp;Many parents fear that their kids are going to change in a violent person. Well, it’s actually not the gun that made them a violent person. If they really want to hurt somebody they can do it with whatever they want…So don’t blame this fantastic sport.<br>
+									<br>
+									&emsp;&emsp;Is it safe for you kids? Well it depends. And only you parents know that. Do you feel that you kid has the maturity to be responsible owning and operating a gun, keep it out of public view and wear proper safety gear. It’s up to you parents to judge whether if they can or not.
+							</p>		
+						</div>
+				</div>
+		
+				
+
+		 <!--Start of Sponsor-->
+		 <div class="containersponsor bordersponsor">
+			<div class="swipesponsor">
+				<h2 align="center">Our Sponsor :</h2>
+				<div>
+						<a target="_blank" href="https://www.instagram.com/gastroops/">
+							<img class="sponsorimg" src="../images/Sponsor/gas.png">
+						</a> 
+						<a target="_blank" href="https://www.instagram.com/battlegroundjogja/">
+							<img class="sponsorimg" src="../images/Sponsor/bg.jpg">
+						</a> 
+						<a target="_blank" href="http://www.jackstormtactical.com/">
+							<img class="sponsorimg" src="../images/Sponsor/js.png">
+						</a> 
+						<a target="_blank" href="https://www.facebook.com/VajraPatchworks/">
+							<img class="sponsorimg" src="../images/Sponsor/vajra.png">
+						</a> 
+						<a target="_blank" href="https://facebook.com/zhukovau.id/">
+							<img class="sponsorimg" src="../images/Sponsor/zhukoyevich.jpg">
+						</a> 
+				</div>
+			</div>
+		</div>
+	<!--End of Sponsor-->
+</main>
+	
+
+
+
+
+	
+	<!-- Footer -->
+	<footer>
+			
+
+		Copyright 2019 Blitzkrieg Team, All right reserved.
+	</footer>
+
+	<!------------------------------------------------------------------------------------------>
+	<!------------------------------------------------------------------------------------------>
+	<!------------------------------------------------------------------------------------------>
+	
+	<!-- Bootstrap Dependencies -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+			crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+			crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+			crossorigin="anonymous"></script>
+	
+	<!-- Angularjs Dependencies -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>   
+	<script src="/js/custom.js"></script>
+
+	<!-- Our Java Script Down Here! -->
+
+	<!-- Galery Intro -->
+	<script>
+		function myFunction(imgs) {
+			// Get the expanded image
+			var expandImg = document.getElementById("expandedImg");
+			// Get the image text
+			var imgText = document.getElementById("imgtext");
+			// Use the same src in the expanded image as the image being clicked on from the grid
+			expandImg.src = imgs.src;
+			// Use the value of the alt attribute of the clickable image as text inside the expanded image
+			imgText.innerHTML = imgs.alt;
+			// Show the container element (hidden with CSS)
+			expandImg.parentElement.style.display = "block";
+		}
+	</script>
+
+</body>
+</html>

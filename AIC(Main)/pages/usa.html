@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Bootstrap required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<title>Airsoft Information Center</title>
+	<link rel="stylesheet" href="../css/header.css">
+	<link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<!-- Logo -->
+		<div  class="logo">
+				<a href="../pages/main.html"><img  src="../images/logom4white.png" alt="Logo"></a>
+		</div>
+		<!-- Navigation Bar -->
+		<nav class="navbar justify-content-center navbar-expand-md">
+                <!--div class="collapse navbar-collapse" id="navbarNavDropdown"></div-->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/main.html">Home</a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="armory" 
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           Armory
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Handgun</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/glock.html">Glock18</a></li>
+                                    <li><a class="dropdown-item" href="../pages/m1911.html">M1911</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Assault Rifles</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">AK</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../pages/ak47.html">AK47</a></li>
+                                            <li><a class="dropdown-item" href="../pages/aks74.html">AKS74</a></li>
+                                            <li><a class="dropdown-item" href="../pages/ak12.html">AK12</a></li>
+                                            <li><a class="dropdown-item" href="../pages/pp19.html">PP19-01</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">M4</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../pages/m16.html">M16</a></li>
+                                            <li><a class="dropdown-item" href="../pages/m4a1.html">M4A1</a></li>
+                                            <li><a class="dropdown-item" href="../pages/mk18.html">MK18</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+    
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Bolt Action</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/m24.html">M24</a></li>
+                                    <li><a class="dropdown-item" href="../pages/l96.html">L96</a></li>
+                                    <li><a class="dropdown-item" href="../pages/kar98.html">Kar98k</a></li>
+                                    <li><a class="dropdown-item" href="../pages/mosin.html">Mosin Nagant</a></li>
+                                </ul>
+                            </li>
+    
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">SMG</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">MP5</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../pages/mp5sd.html">MP5 SD</a></li>
+                                            <li><a class="dropdown-item" href="../pages/mp5.html">MP5</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">UMP</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="../pages/ump45.html">UMP 45</a></li>
+                                            <li><a class="dropdown-item" href="../pages/ump9.html">UMP 9</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="rules" 
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Rules & Mechanism
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="rules">
+                            <li class="dropdown-submenu">
+                                <a class="dropdown-item dropdown-toggle" href="#">Rules</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="../pages/rof.html">Rate Of Fire</a></li>
+                                    <li><a class="dropdown-item" href="../pages/rog.html">Rule Of Game</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="../pages/mechanism.html">Mechanism</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="gear" 
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Gear
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="gear">		
+                            <li><a class="dropdown-item dropdown-selected" href="../pages/usa.html">USA</a></li>
+                            <li><a class="dropdown-item" href="../pages/japan.html">Japan</a></li>
+                            <li><a class="dropdown-item" href="../pages/russia.html">Russia</a></li>
+                        </ul>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/field.html">Field</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- End Of Navbar -->
+		
+		<!-- Search Bar -->
+		<div class="searchbar">
+			<input type="text" placeholder="Search...">
+			<img src="../images/searchlogo2.png">
+		</div>
+	</header>
+
+	<!-- Slider
+		
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="../images/bbedit.jpg" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="../images/mgedit.png" class="d-block w-100" alt="...">
+			</div>
+			<div class="carousel-item">
+				<img src="../images/otedit.jpg" class="d-block w-100" alt="...">
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	-->
+	
+
+	<!-- Main -->
+	<main>
+		<div class="jumbotron jumbotron-fluid jumbomargin jumbousa">
+			<div class="container">
+			  <h1 class="display-4 hjumbopages">USA GEAR LOADOUT</h1>
+			</div>
+		  </div>
+
+		<div class="content">
+			<h1 align="center">United States Marine Corps Forces Special Operations Command (MARSOC)</h1>
+			<div class="containermecha1">
+				<!--Sources : https://www.airsoft-milsim-news.com/gear-gallery-marsoc-inspiered-loadout/-->
+				<div class="row">
+					  	<div class="col">
+							<p class="pintromecha">
+                                &emsp;&emsp;<strong>United States Marine Corps Forces Special Operations Command (MARSOC)</strong> is a component command of the United States Special Operations Command that comprises the Marine Corps' contribution to SOCOM.
+                                Its core capabilities are direct action, special reconnaissance and foreign internal defense.<br>
+                                &emsp;&emsp;MARSOC has also been directed to conduct counter-terrorism, and information operations.
+                            </p>
+                            <div id="videointro">
+                                <div align="center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0vfGz4e0NPk?rel=0&amp;showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            
+                         </div>
+                         <div class="col">
+                            <div class="col">
+                                <div id="carouselExampleControls1" class="carousel slide mechaimg "  data-ride="carousel" >
+                                    <div class="carousel-inner boxshadow" >
+                                        <div class="carousel-item active">
+                                            <img src="../images/Gear/USAintro.jpg"  class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../images/Gear/USAintro2.jpg"  class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="../images/Gear/USAintro3.jpg"  class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-slide="prev">
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-slide="next">			
+                                    </a>
+                                </div>
+                            </div>
+                         </div>
+				</div>
+			</div>
+		</div>
+		<!--Start Of Content2-->
+		<div class="content2 contenttext2">
+			<div>
+				<h2>1st LINE</h2>
+				<h3 class="lineh"></h3>
+				<br>
+			</div>
+			<div class="row">
+                    <div class="col">
+                            <div class="rogimg boxshadowrog">									
+                                    <img src="../images/Gear/USALoadout1.jpg">
+                            </div>									
+                       </div>
+				<div class="col">
+					<div class="col jumbotext">
+                            <div class="col jumbotext">
+                                <p><b>&emsp;&emsp;&emsp;1st line details:</b>
+                                    <br>
+                                    <ul class="ulrog hyperlink1">
+                                        <li>
+                                            <a href="http://lbtinc.com/belts-lanyards-slings/belts/riggers-belt-c.html">LBT Riggers Belt
+                                            </a> (khaki)
+                                        </li>
+                                        <li>
+                                            <a href="http://www.tacwrk.com/tasmanian-tiger-dump-pouch-khaki-232">TT Dump Pouch
+                                            </a> (khaki)
+                                        </li>
+                                        <li>
+                                            <a href="http://lbtinc.com/belts-lanyards-slings/lanyards/line-safety-tie-in-retractable-c.html">LBT Line Safety Lanyard
+                                            </a> (khaki)
+                                        </li>
+                                        <li>Modded 
+                                            <a href="http://www.sniper-as.de/product/Safariland/Taktisches_Holster_6004_STX,_FDE_brown,_Glock_1722,_rechts/id/16469">Safariland 6004 Holster
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://shop.ehobbyasia.com/tokyo-marui-g17-gbb-pistol-3rd-generation.html#.U_rUd_l_t8F">Glock 17
+                                            </a>*/w RMR* &
+                                            <a href="http://shop.ehobbyasia.com/element-m3x-tactical-illuminator-short-version-black.html#.U_rUePl_t8F">M3X light
+                                            </a>*
+                                        </li>
+                                    </ul>                    
+                                </p>
+                            </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<!--End Of Content2-->
+
+		<!--Start Of Content1-->
+		<div class="content">
+                <div>
+                    <h2>2nd LINE and Headgear</h2>
+                    <h3 class="lineh"></h3>
+                    <br>
+                </div>
+                <div class="row">
+                        
+                    <div class="col">
+                        <div class="col jumbotext">
+                            <div class="col jumbotext">
+                                <p><b>&emsp;&emsp;&emsp;2nd line details:</b>
+                                    <br>
+                                    <ul class="ulrog hyperlink2">
+                                        <li>
+                                            <a href="http://www.cryeprecision.com/C-232/CAGE-Armor-Chassis%E2%84%A2">Crye Cage Chassis
+                                            </a> Gen2 Prototype Khaki
+                                        </li>
+                                        <li>
+                                            <a href="http://www.eagleindustries.com/products/detail.aspx?id=170">EI MBITR Pouch
+                                            </a> (khaki) with
+                                            <a href="http://emperionstore.com/an-prc-152-multiband-inter-intra-team-radio-tri-en-en.html">Tri PRC 152
+                                            </a>, 5pin <a href="http://emperionstore.com/g-switch-i-ptt-tri-en.html"> Tea PTT
+                                            </a>* & whip antenna /w
+                                            <a href="http://emperionstore.com/c3-headset-od-tri-en.html">  comtacs II
+                                            </a>*
+                                        </li>
+                                        <li>2x
+                                            <a href="http://www.highspeedgear.com/hsgi/double-decker-taco-11DD00.html"> HSGI* M4 & Pistol
+                                            </a> pouches
+                                        </li>
+                                        <li>
+                                            <a href="http://http//www.eagleindustries.com/products/detail.aspx?id=159">MLCS grenade
+                                            </a> pouch*
+                                        </li>
+                                        <li>
+                                            <a href="http://www.redwolfairsoft.com/redwolf/airsoft/Combat_Gear_Pouches_Attachments_Pantac_MOLLE_M60_100rd_Magazine_Pouch_Khaki_CORDURA.htm">M60 pouch
+                                            </a> (khaki)*
+                                        </li>
+                                        <li>
+                                            Hydration pouch (khaki)*
+                                        </li>
+                                        <li>
+                                            <a href="http://www.tacticalassaultgearstore.com/molleslapchargebreacherpouch.aspx">Custom Slap Charge Pouch
+                                            </a> /w Custom 2x slap charges
+                                        </li>
+                                        <li>
+                                            <a href="http://combattourniquet.com/">Combat Application Tourniquet®
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <p><b>&emsp;&emsp;&emsp;Headgear:</b></p>
+                                    <ul class="ulrog hyperlink2">
+                                        <li>
+                                            <a href="http://www.ebairsoft.com/dummy-helmet-p-5229.html">Airframe
+                                            </a>* /w rails & 
+                                            <a href="http://gunfire.pl/product-eng-1152199741-NRT-type-mount-DE.html">norotos* universal mount
+                                            </a> &
+                                            <a href="http://gunfire.pl/product-eng-1152200940-NVG-L4G24-mount-black.html">L4G24
+                                            </a>*
+                                        </li>
+                                        <li>
+                                            <a href="http://gunfire.pl/product-eng-1152194123-Helmet-flashlight-with-IFF-option-TAN.html">Surefire HL1 light
+                                            </a>*
+                                        </li>
+                                        <li>
+                                            <a href="http://www.esseyepro.com/">ESS
+                                            </a>glasses
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                            <div class="rogimg boxshadowrog">									
+                                    <img src="../images/Gear/USALoadout2.jpg">
+                            </div>									
+                    </div>
+                </div>
+            </div>
+			<!--End Of Content1-->
+
+			<!--Start Of Content2-->
+		<div class="content2 contenttext2">
+                <div>
+                    <h2>CLOTHING and PRIMARY WEAPON</h2>
+                    <h3 class="lineh"></h3>
+                    <br>
+                </div>
+                <div class="row">
+                        <div class="col">
+                                <div class="rogimg boxshadowrog">									
+                                        <img src="../images/Gear/USALoadout3.jpg">
+                                </div>									
+                           </div>
+                    <div class="col">
+                        <div class="col jumbotext">
+                                <div class="col jumbotext">
+                                    <p><b>&emsp;&emsp;&emsp;Clothing details:</b></p>
+                                        <br>
+                                        <ul class="ulrog hyperlink1">
+                                            <li>
+                                                <a href="http://www.drifire.com/drifire-combat-pant">Drifire FR combat pant
+                                                </a> woodland
+                                            </li>
+                                            <li>
+                                                <a href="https://www.truspec.com/uniforms/tactical-response-uniform-tru/tru-14-zip-combat-shirt">Truspec combat shirt
+                                                </a> woodland
+                                            </li>
+                                            <li>
+                                                <a href="http://www.salomon.com/de/product/eskape-peak-eoutlet.html">Salomon eskape peak m
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <p><b>&emsp;&emsp;&emsp;Primary:</b></p>
+                                        <ul class="ulrog hyperlink1">
+                                            <li>
+                                                <a href="http://www.ebairsoft.com/dummy-helmet-p-5229.html">SCAR-H
+                                                </a>* /w
+                                                <a href="http://www.ebairsoft.com/dummy-helmet-p-5229.html">Tango Down foregrip
+                                                </a>,
+                                                <a href="http://www.ebairsoft.com/dummy-helmet-p-5229.html">PEQ15
+                                                </a>*
+                                            </li>
+                                            <li>
+                                                <a href="http://gunfire.pl/product-eng-1152194123-Helmet-flashlight-with-IFF-option-TAN.html">BFG Inc. padded sling
+                                                </a>(multicam)
+                                            </li>
+                                            <li>
+                                                <a href="http://www.esseyepro.com/">Harris* style bipod
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.esseyepro.com/">Visionking 1.25-5×26
+                                                </a>Rifle Scope
+                                            </li>
+                                        </ul>                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Of Content2-->
+		 <!--Start of Sponsor-->
+		 <div class="containersponsor bordersponsor">
+            <div class="swipesponsor">
+                <h2 align="center">Our Sponsor :</h2>
+                <div>
+                        <a target="_blank" href="https://www.instagram.com/gastroops/">
+                            <img class="sponsorimg" src="../images/Sponsor/gas.png">
+                        </a> 
+                        <a target="_blank" href="https://www.instagram.com/battlegroundjogja/">
+                            <img class="sponsorimg" src="../images/Sponsor/bg.jpg">
+                        </a> 
+                        <a target="_blank" href="http://www.jackstormtactical.com/">
+                            <img class="sponsorimg" src="../images/Sponsor/js.png">
+                        </a> 
+                        <a target="_blank" href="https://www.facebook.com/VajraPatchworks/">
+                            <img class="sponsorimg" src="../images/Sponsor/vajra.png">
+                        </a> 
+                        <a target="_blank" href="https://facebook.com/zhukovau.id/">
+                            <img class="sponsorimg" src="../images/Sponsor/zhukoyevich.jpg">
+                        </a> 
+                </div>
+            </div>
+        </div>
+    <!--End of Sponsor-->
+</main>
+	
+
+
+
+
+	
+	<!-- Footer -->
+	<footer>
+			
+
+		Copyright 2019 Blitzkrieg Team, All right reserved.
+	</footer>
+
+	<!------------------------------------------------------------------------------------------>
+	<!------------------------------------------------------------------------------------------>
+	<!------------------------------------------------------------------------------------------>
+	
+	<!-- Bootstrap Dependencies -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+			crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+			crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+			crossorigin="anonymous"></script>
+	
+	<!-- Angularjs Dependencies -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>   
+	<script src="/js/custom.js"></script>
+
+	<!-- Our Java Script Down Here! -->
+
+	<!-- Galery Intro -->
+	<script>
+		function myFunction(imgs) {
+			// Get the expanded image
+			var expandImg = document.getElementById("expandedImg");
+			// Get the image text
+			var imgText = document.getElementById("imgtext");
+			// Use the same src in the expanded image as the image being clicked on from the grid
+			expandImg.src = imgs.src;
+			// Use the value of the alt attribute of the clickable image as text inside the expanded image
+			imgText.innerHTML = imgs.alt;
+			// Show the container element (hidden with CSS)
+			expandImg.parentElement.style.display = "block";
+		}
+	</script>
+
+</body>
+</html>

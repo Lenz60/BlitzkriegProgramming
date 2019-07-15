@@ -7,6 +7,7 @@
 /*** Background ***/
 body {
 	background: url('../images/bg2.jpg');
+	background-attachment: fixed;
 }
 
 /*** Slider ***/
@@ -32,6 +33,46 @@ main > .intro {
 	background-color: aquamarine;
 }
 
+/*** Slider Mechanism ***/
+.mechaimg{
+	width: 90%;
+	height: 90%;
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+/*** Header Content ***/
+.lineh{
+	content: "";
+    position: absolute;
+    width: 300px;
+    height: 3px;
+    background: rgb(255, 166, 1);
+}
+
+/*** ROG Properties ***/
+.rogimg img{
+	width: 90%;
+	height: 90%;
+	margin-left: 10%;
+	margin-bottom: 5px;
+	top: -35px;
+}
+
+.rogp1{
+	left: 50%;
+}
+
+.ulrog{
+	margin-left: 7%;
+}
+.psave{
+	padding-top: 10%;
+}
+
+
+
 /*** MilsimGalery ***/
 .milimg{
 	width: 90%;
@@ -50,6 +91,7 @@ main > .intro {
 	background-color: rgba(169, 169, 169, 0.308);
 	border: solid 0px;
 	border-radius: 5px;
+	image-resolution: auto;
 }
 
 /*** Box Shadow ***/
@@ -61,26 +103,103 @@ main > .intro {
 	
 }
 
+.boxshadowrog img{
+	box-shadow: 5px -10px 5px rgba(102, 93, 81, 0.349);
+	border: solid 0px;
+	border-radius:7px;
+}
+
+/*** Hyperlink Text ***/
+
+.hyperlink1 a{
+	color: burlywood;
+	text-decoration: none;
+}
+
+.hyperlink2 a{
+	color: rgb(45, 77, 5);
+	text-decoration: none;
+}
+
   
 /*** Jumbotron ***/
 .jumbomargin {
-	padding-bottom: 22%;
-	background-image: url("../images/marsoc2.jpg");
+	padding-bottom: 21%;
 	background-size: 100%;
+	background-repeat: no-repeat;
 	width: 100%;
 	color: white;
 }
+.jumbohome{
+	background-image: url("../images/marsoc2.jpg");
+}
+
+.jumbomecha{
+	background-image: url("../images/Types/HPA3edit.png");
+	padding-top: 10%;
+}
+
+.jumbofield{
+	background-image: url("../images/Field/field.png");
+	padding-top: 10%;
+}
+
+.jumborof{
+	background-image: url("../images/Rule/rof.png");
+	padding-top: 10%;
+}
+
+.jumborog{
+
+	background-image: url("../images/Rule/rog.png");
+	padding-top: 10%;
+}
+
+.jumbousa{
+	background-image: url("../images/Gear/gearUSA.jpg");
+	padding-top: 10%;
+}
+
+.jumbojapan{
+	background-image: url("../images/Gear/gearJSDF.png");
+	padding-top: 10%;
+}
+
+.jumborussia{
+	background-image: url("../images/Gear/gearRussia3.jpg");
+	padding-top: 10%;
+}
 
 /*** Jumbotron Text ***/
+@font-face{
+	font-family: "Captureit";
+	src: url("../font/Captureit.ttf");
+}
 
 .hjumbo{
 	padding-top: 200px;
 	padding-left: 250px;
-	font:normal 45px Arial, Helvetica, sans-serif;
+	font:normal 45px;
+	font-family: 'Captureit', Helvetica, Arial, sans-serif;	
+	color:#ffffff;
+	text-shadow:1px 3px 10px rgba(0, 0, 0, 0.836);
+}
+
+.jumbotext{
+	margin-top: 1%;
+}
+
+.hjumbopages{
+	padding-top: 150px;
+	padding-left: 300px;
+	justify-content: center;
+	font-family: 'Captureit', Helvetica, Arial, sans-serif;	
+	font:normal 45px;
 	font-style:normal;
 	color:#ffffff;
 	text-shadow:1px 3px 10px rgba(0, 0, 0, 0.836);
 }
+
 .pjumbo{
 	padding-left: 300px;
 	font-family: "Lucida Sans Unicode";
@@ -146,20 +265,126 @@ main > .intro {
 	  font-size: 17px;
   }
 
-main > .content {
-	margin-top: 5px;
-	padding: 5px 5%;
+  .pintromecha{
+	padding-top: 2%;
+	font-style: verdana;
+	font-size: 17px;
+}
 
+/* Content */
+.content {
+	padding: 10px;
+}
+.content2 {
+	padding: 10px;
+}
+
+.contentmecha1{
+	padding: 10px;
+}
+
+.containermecha{
+	height: 200px;
+}
+
+/*** Gallery Video Grid ***/
+.video-item {
+	overflow: hidden;
+  }
+  
+  .video-wrap {
+	position: relative;
+	padding-bottom: 56.25%;
+  }
+  
+  .video-item iframe {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin-top: 0;
+  }
+  
+  .video-item img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	height: 270px;
+	width: 480px;
+  }
+  
+  @supports (display: grid) {
+  
+	.video-grid {
+	  display: grid;
+	  grid-template-columns: 2fr 1fr;
+	  grid-template-rows: repeat(2, 1fr);
+	  margin: 0 -2em;
+	}
+	
+	.video-item {
+	  margin-top: 0;
+	}
+	
+	.video-item iframe {
+	  border: 0.125rem solid transparent;
+	}
+  
+	.video-item:nth-child(1) {
+	  grid-column: 1 / 2;
+	  grid-row: 1 / 3;
+	}
+  
+	.video-item:nth-child(2) {
+	  grid-column: 2 / 3;
+	  grid-row: 1 / 2;
+	}
+  
+	.video-item:nth-child(3) {
+	  grid-column: 2 / 3;
+	  grid-row: 2 / 3;
+	}
+	
+	.video-item:nth-last-child(-n+1):first-child,
+	.video-item:nth-last-child(-n+1):first-child ~ .video-item {
+	  grid-column: 1 / 3;
+	  grid-row: 1 / 3;
+	}
+  }
+
+/*** contact ***/
+.logocontact{
+	float: left;
+	margin-left: 3%;
+	margin-right: 2%;
+}
+
+.textcontact{
+	padding-top: 10px;
+}
+
+/*** Container Contact ***/
+.containercontact{
+	margin: auto;
+}
+
+
+main > .content {
+	padding: 5px 5%;
 	width: 100%;
 	background: rgba(255, 255, 255, 0.747);
 }
-
 
 main >.content2 {
 	padding: 5px 5%;
 	width: 100%;
 	background: rgba(40, 31, 19, 0.692);
 }
+
+
 
 /*** Content Text ***/
 .contenttext2{
@@ -168,24 +393,42 @@ main >.content2 {
 
 /*** Footer ***/
 footer {
+
 	margin-top: 5px;
 	padding: 20px 5%;
 	background: rgba(51, 51, 51, 0.726);
 	text-align: center;
 	color: darkgray;
+
 }
 
+.bordersponsor{
+
+	border: solid 80px;
+	border-image-repeat: repeat;
+	border-image: url("../images/borderpolice.png") 25% round ;
+}
 
 
 
 /*** Sponsor Slider ***/
 .sponsorimg{
-	width: 30%;
-	height: 30%;
+	width: 15%;
+	height: 15%;
+	margin-left: 3%;
+	border-radius: 5px;
+	padding-left: 2%;
+}
+
+.swipesponsor{
+	margin-top: -3%;
+    overflow:auto;
+    white-space:nowrap;
 }
 
 main >.containersponsor{
-	height: 300px;
+	padding-top: 5px;
+	height: 350px;
 	width: 100%;
-	background: rgb(26, 26, 26);
+	background: rgba(206, 206, 206, 0.651);
 }
