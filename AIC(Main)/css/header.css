@@ -110,7 +110,7 @@ nav > a {
 	
 	width: 0;
 	height: 100%;
-	color: white;
+	color: black;
 	background: transparent;
 
 	transition: width 0.4s ease;
@@ -120,7 +120,12 @@ nav > a {
 	
 	transition: width 0.4s ease;
 }
-.searchbar > img {
+.searchbar button{
+	border: 0;
+	background: transparent;
+	outline: 0;
+}
+.searchbar  img {
 	width: 30px;
 	height: 30px;
 	cursor: crosshair;

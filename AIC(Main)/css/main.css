@@ -516,3 +516,7 @@ main >.containersponsor{
 	width: 100%;
 	background: rgba(206, 206, 206, 0.651);
 }
+
+#search-field {
+	color: white;
+}

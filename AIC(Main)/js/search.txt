@@ -1,0 +1,17 @@
+{
+	"item": [{
+		"title": "MK18",
+		"desc": "CYMA Full Metal M16 A3 Airsoft AEG Rifle",
+		"link": "mk18.html"
+	},
+	{
+		"title": "MP5",
+		"desc": "EMG Colt Licensed Daniel Defense M4A1 SOPMOD Block 2 Airsoft AEG",
+		"link": "mp5.html"
+	},
+	{
+		"title": "M16",
+		"desc": "Elite Force H&K Full Metal MP5A5 AEG Airsoft SMG by VFC (Black)",
+		"link": "m16.html"
+	}]
+}
