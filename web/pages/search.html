@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<base href="/web/">
+
+ 	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<title>Airsoft Information Center</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		function getSearchValue() {
+			var vars = window.location.search.substring(1).split('&');
+			for (var i = 0; i < vars.length; i++) {
+				var pair = vars[i].split('=');
+				if (decodeURIComponent(pair[0]) == "search") {
+					return decodeURIComponent(pair[1]);
+				}
+			}
+		}
+		
+		console.log(getSearchValue());
+
+		$(document).ready(function(){
+
+			/* Data yang akan di-search masih belum ada 
+			
+			$("#myInput").on("keyup", function() {
+				var value = $(this).val().toLowerCase();
+				$("#myTable tr").filter(function() {
+				$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+				});
+			});*/
+
+		});
+		
+	</script>
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<!-- Logo -->
+		<a href="pages/main.html">
+			<img class="logo" src="images/logom4white.png" alt="Logo">
+		</a>
+
+		<!-- Navigation Bar -->
+		<!-- desktop -->
+		<nav class="desktop">
+			<div class="dropdown">
+				<a class="nav-item" href="">Guns</a>
+				<div class="dropdown-body">
+					<a class="nav-item" href="">Mechine Gun</a>
+					<a class="nav-item" href="">Sniper</a>
+					<a class="nav-item" href="">Shotgun</a>
+				</div>
+			</div>
+			<a class="nav-item" href="">Gears</a>
+			<a class="nav-item" href="">Rules</a>
+			<a class="nav-item" href="">Mechanism</a>
+			<a class="nav-item" href="">Fields</a>
+		</nav>
+
+		<!-- mobile -->
+		<nav class="mobile">
+			<div class="dropdown">
+				<a class="nav-item" href="">
+					<img src="images/icons/menu.png" alt="">
+				</a>
+				<div class="dropdown-body">
+					<a class="nav-item" href="">Guns</a>
+					<a class="nav-item" href="">Gears</a>
+					<a class="nav-item" href="">Rules</a>
+					<a class="nav-item" href="">Mechanism</a>
+					<a class="nav-item" href="">Fields</a>
+				</div>
+			</div>
+		</nav>
+		
+		<!-- Search Bar -->
+		<form class="searchbar" action="pages/search.html" method="get">
+			<input type="text" placeholder="Search..." name="search">
+			<button type="submit">
+				<img src="images/icons/search.png">
+			</button>
+		</form>
+	</header>
+	<div class="top"></div>
+
+	
+
+	<!--Start of Sponsor-->
+	<div class="containersponsor bordersponsor">
+		<div class="swipesponsor">
+			<h1>Our Sponsor</h1>
+			<div>
+				<a target="_blank" href="https://www.instagram.com/gastroops/">
+					<img class="sponsorimg" src="images/Sponsor/gas.png">
+				</a> 
+				<a target="_blank" href="https://www.instagram.com/battlegroundjogja/">
+					<img class="sponsorimg" src="images/Sponsor/bg.jpg">
+				</a> 
+				<a target="_blank" href="http://www.jackstormtactical.com/">
+					<img class="sponsorimg" src="images/Sponsor/js.png">
+				</a> 
+				<a target="_blank" href="https://www.facebook.com/VajraPatchworks/">
+					<img class="sponsorimg" src="images/Sponsor/vajra.png">
+				</a> 
+			</div>
+		</div>
+	</div>
+	
+	<!-- Footer -->
+	<footer>
+		Copyright 2019 Blitzkrieg Team, All right reserved.
+	</footer>
+
+	<!------------------------------------------------------------------------------------------>
+	<!------------------------------------------------------------------------------------------>
+	<!------------------------------------------------------------------------------------------>
+	
+	<!-- Bootstrap Dependencies -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+			crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+			crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+			crossorigin="anonymous"></script>
+	
+	<!-- Angularjs Dependencies -->
+	<script src="/js/custom.js"></script>
+
+	<!-- Our Java Script Down Here! -->
+
+	<!-- Galery Intro -->
+	<script>
+		function setGaleryView(img) {
+			document.getElementById('galery-view').src = img.src;
+		}
+	</script>
+
+</body>
+</html>

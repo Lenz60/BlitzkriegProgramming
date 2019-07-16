@@ -1,0 +1,36 @@
+@font-face{
+	font-family: "Captureit";
+	src: url("../assets/font/Captureit.ttf");
+}
+
+@mixin desktop {
+	@media (min-width: 800px) {
+		@content;
+	}
+}
+@mixin mobile {
+	@media (max-width: 799px) {
+		@content;
+	}
+}
+
+/***************************************************/
+
+$page-min-width: 400px;
+$header-padding: 10px;
+
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*** Background ***/
+body {
+	background: url('../assets/images/bg2.jpg');
+	background-attachment: fixed;
+}
+
+@import "header";
+@import "greeting";
+@import "content";

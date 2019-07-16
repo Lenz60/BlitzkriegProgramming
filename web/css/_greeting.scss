@@ -1,0 +1,40 @@
+/*** Intro ***/
+.greeting {
+	position: relative;
+	overflow: hidden;
+	min-width: $page-min-width;
+
+	img {
+		width: 100%;
+		min-width: 1000px;
+	}
+
+	%text-greeting {
+		position: absolute;
+		left: 50%;
+		transform: translatex(-50%);
+
+		text-align: center;
+		color: white;
+	}
+	
+	h1 {
+		@extend %text-greeting;
+		top: 20%;
+
+		font-family: "Captureit", Arial, sans-serif;
+		font-size: 3.5em;
+		line-height: 1em;
+	}
+
+	p {
+		@extend %text-greeting;
+		top: 60%;
+		width: 90%;
+
+		font-family: "Lucida Sans Unicode";
+		font-size: 20px;
+		letter-spacing: -1.2px;
+		word-spacing: 0.6px;
+	}
+}
