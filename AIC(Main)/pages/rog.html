@@ -128,10 +128,38 @@
 			<!-- End Of Navbar -->
 		
 		<!-- Search Bar -->
-		<div class="searchbar">
-			<input type="text" placeholder="Search...">
-			<img src="../images/searchlogo2.png">
-		</div>
+		<form class="searchbar">
+			<input type="text" name="search" onkeyup="filterFunction()" id="myInput" placeholder="Search...">
+			<button><img src="../images/searchlogo2.png"></button>
+			<div class="dropdown">
+					<div id="myDropdown" class="dropdown-content">
+					  	<a target="_blank" href="../pages/m1911.html">M1911</a>
+						<a target="_blank" href="../pages/glock.html">Glock 18</a>
+					
+						<a target="_blank" href="../pages/ak47.html">AK47</a>
+						<a target="_blank" href="../pages/pp19.html">PP-19-01</a>
+					
+						<a target="_blank" href="../pages/m16.html">M16</a>
+						<a target="_blank" href="../pages/m4a1.html">M4A1</a>
+						<a target="_blank" href="../pages/mk18.html">MK18</a>
+
+						<a target="_blank" href="../pages/kar98.html">Kar98k</a>
+
+						<a target="_blank" href="../pages/mp5.html">MP5</a>
+						<a target="_blank" href="../pages/mp5sd.html">MP5SD</a>
+						<a target="_blank" href="../pages/ump45.html">UMP 45</a>
+
+						<a target="_blank" href="../pages/russia.html">Russian Gear</a>
+						<a target="_blank" href="../pages/usa.html">USA Gear</a>
+						<a target="_blank" href="../pages/japan.html">Japan Gear</a>
+
+						<a target="_blank" href="../pages/rof.html">Rule Of Fire</a>
+						<a target="_blank" href="../pages/rog.html">Rule Of Game</a>
+						<a target="_blank" href="../pages/mechanism.html">Mechanism</a>
+						<a></a>
+					</div>
+				</div>
+		</form>
 	</header>
 
 	<!-- Slider
@@ -607,6 +635,25 @@
 			imgText.innerHTML = imgs.alt;
 			// Show the container element (hidden with CSS)
 			expandImg.parentElement.style.display = "block";
+		}
+	</script>
+	<!-- Search Filter -->
+	<script>		
+		function filterFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+			var input, filter, ul, li, a, i;
+			input = document.getElementById("myInput");
+			filter = input.value.toUpperCase();
+			div = document.getElementById("myDropdown");
+			a = div.getElementsByTagName("a");
+			for (i = 0; i < a.length; i++) {
+				txtValue = a[i].textContent || a[i].innerText;
+				if (txtValue.toUpperCase().indexOf(filter) > -1) {
+				a[i].style.display = "";
+				} else {
+				a[i].style.display = "none";
+				}
+			}
 		}
 	</script>
 
