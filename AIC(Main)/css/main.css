@@ -292,6 +292,23 @@ main > .intro {
 	height: 200px;
 }
 
+/*** Show/Hidden Content  ***/
+.panelsh, .flipsh {
+	cursor: pointer;
+  }
+  
+.panelsh {
+	display: none;
+  }
+ 
+.panelproperties{
+	background-color: rgba(240, 204, 4, 0.541);
+	color: black;
+}
+
+
+
+
 /*** Gallery Video Grid ***/
 .video-item {
 	overflow: hidden;
